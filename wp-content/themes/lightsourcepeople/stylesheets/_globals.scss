@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url(fonts/Montserrat-Light.ttf);
+}
+
+body {
+  font-family: Montserrat;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.summary {
+  font-size: 16px;
+  color: $lsp-blue;
+  margin-bottom: 40px;
+  @include lsp-copy();
+}
+
+.mailto {
+  color: $lsp-blue;
+}
+
+.copy {
+  color: $font-color;
+  @include lsp-copy();
+}
+
+.dream-role {
+  padding: 70px 0 70px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e2f3a+0,375c6e+100 */
+  background: #1e2f3a;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #1e2f3a 0%, #375c6e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #1e2f3a 0%, #375c6e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #1e2f3a 0%, #375c6e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e2f3a', endColorstr='#375c6e', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  color: #ffffff;
+  font-size: 18px;
+  .location-wrapper {
+    display: inline-block;
+    .fa {
+      display: block;
+      position: absolute;
+      color: $lsp-blue;
+      margin-left: 40px;
+      margin-top: 12px;
+    }
+  }
+  form {
+    @include lsp-copy();
+    padding: 0 100px 0 132px;
+    margin: auto;
+  }
+  #location {
+    padding-left: 30px;
+  }
+  input {
+    font-size: 14px;
+    padding: 10px;
+    color: #9B9B9B;
+    @include border-radius(4px);
+    outline: none;
+    border: none;
+    text-align: center;
+    min-width: 220px;
+  }
+  #role {
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+  #location {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .search-btn {
+    -webkit-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    border: 1px solid #ffffff;
+    background: transparent;
+    font-size: 14px;
+    padding: 10px;
+    min-width: 150px;
+    @include border-radius(4px);
+    outline: none;
+    &:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+  }
+}
+
+.footer-top {
+  background: #282E33;
+  padding: 50px 0 50px 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      font-size: 12px;
+    }
+  }
+  a {
+    display: block;
+    color: #737373;
+    text-decoration: none;
+    @include lsp-copy();
+  }
+  a.heading {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  .author {
+    font-size: 12px;
+    margin-top: 30px;
+    color: #737373;
+    a {
+      display: inline-block;
+      color: #F6A623;
+      text-decoration: none;
+    }
+  }
+  .logo-footer {
+    float: right;
+    width: 120px;
+    margin-top: 40px;
+  }
+}
+
+.footer-bottom {
+  background: #1E2226;
+  padding: 50px 0 50px 0;
+  color: #717171;
+  .social-footer {
+    text-align: center;
+    span {
+      display: inline-block;
+      padding: 0 25px 0 25px;
+      margin: auto;
+      font-size: 30px;
+      a {
+        -webkit-transition: color 0.5s ease;
+        -o-transition: color 0.5s ease;
+        transition: color 0.5s ease;
+        color: #717171;
+        &:hover {
+          color: $lsp-blue;
+        }
+      }
+    }
+  }
+}
+
+.lsp-divider {
+  border-bottom: 1px solid #979797;
+  padding-bottom: 50px;
+}
+
+.extra-padding {
+  padding-bottom: 50px;
+}
+
+.extra-margin {
+  margin-bottom: 50px;
+}
+
+.extra-padding-top {
+  padding-top: 50px;
+}
+
+.current-vacancies {
+  background: #ffffff;
+  padding-top: 50px;
+  text-align: center;
+  .heading {
+    font-size: 34px;
+  }
+  .call-us {
+    color: $lsp-blue;
+    font-size: 20px;
+  }
+}
+
+.vacancies {
+  padding: 50px 0 50px 0;
+  background: #ffffff;
+  .item {
+    border-top: 1px solid #979797;
+    padding: 30px 0 30px 0;
+    .title {
+      font-color: $font-color;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+    .description {
+      @include lsp-copy();
+      color: $font-color;
+    }
+    .subheading {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    p {
+      @include lsp-copy();
+      color: $font-color;
+    }
+    .see-more-btn {
+      @include border-radius(4px);
+      -webkit-transition: opacity 0.5s ease;
+      -o-transition: opacity 0.5s ease;
+      transition: opacity 0.5s ease;
+      color: #ffffff;
+      background: $lsp-blue;
+      padding: 15px;
+      font-size: 14px;
+      float: right;
+      text-decoration: none;
+      @include lsp-copy();
+      .fa-chevron-right {
+        margin-left: 5px;
+        font-size: 8px;
+      }
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    .info {
+      color: blue;
+      text-align: left;
+      margin-top: 15px;
+      span {
+        color: $lsp-blue;
+        border-right: 1px solid $lsp-blue;
+        padding: 0 10px 0 10px;
+        @include lsp-copy();
+        font-size: 14px;
+      }
+      span:first-of-type {
+        padding-left: 0;
+      }
+      span:last-of-type {
+        border-right: none;
+      }
+    }
+  }
+}
+
+.work-wu {
+  padding: 50px 0 50px 0;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background: #979797;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.register {
+  padding: 50px 0 50px 0;
+  text-align: center;
+  background: $lsp-blue;
+  font-size: 26px;
+  color: #ffffff;
+  @include lsp-copy();
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  .doit {
+    position: relative;
+    margin-top: -100px;
+    img {
+      width: 250px;
+    }
+  }
+}
+
+.vacancy-search {
+  padding: 50px 0 50px 0;
+  background: $lsp-blue;
+  .btn-group {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    @include border-radius(4px);
+    color: $font-color;
+    text-align: center;
+  }
+  button {
+    @include border-radius(4px);
+    border: 1px solid #ffffff;
+    background: none;
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block !important;
+  }
+}
+
+.see-vacancies {
+  display: block;
+  font-size: 14px !important;
+  margin-top: 10px;
+  font-weight: 400;
+  a {
+    -webkit-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    color: $lsp-blue;
+    text-decoration: none;
+    .fa {
+      margin-left: 5px;
+      font-size: 8px;
+    }
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+.clients {
+  .testimonial {
+    background-image: url(images/testimonial-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 65%;
+    height: 360px;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    .heading {
+      text-align: center;
+      font-weight: 400;
+      font-size: 24px;
+      //background: rgba(0,0,0,0.4);
+      padding: 10px;
+      // /width: 350px;
+      margin: 50px auto 20px auto;
+    }
+    .copy {
+      text-align: center;
+      padding: 0 80px 0 80px;
+      margin-bottom: 20px;
+      @include lsp-copy();
+      color: #ffffff;
+    }
+    .testimonial-btn {
+      -webkit-transition: background 0.5s ease;
+      -o-transition: background 0.5s ease;
+      transition: background 0.5s ease;
+      @include border-radius(4px);
+      background: #ffffff;
+      padding: 15px 30px 15px 30px;
+      color: #3B4563;
+      display: inline-block;
+      text-decoration: none;
+      &:hover {
+        background: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+  .rss-feed {
+    text-align: center;
+    padding: 50px;
+    background: $lsp-blue;
+    height: 360px;
+    float: left;
+    width: 35%;
+    color: #ffffff;
+    .heading {
+      margin-bottom: 20px;
+      font-weight: 400;
+      opacity: 0.6;
+    }
+    .title {
+      font-size: 18px;
+      line-height: normal;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    .copy {
+      @include lsp-copy();
+      color: #ffffff;
+    }
+    .timestamp {
+      margin-top: 15px;
+      font-size: 12px;
+      a {
+        color: inherit;
+        .fa {
+          margin-left: 5px;
+          font-size: 8px;
+        }
+      } 
+    }
+  }
+}
+
+.mobile-menu {
+  padding-top: 15px;
+  .hamburger {
+    float: right;
+    font-size: 40px;
+    .fa  {
+      vertical-align: super;
+    }
+  }
+  .logo {
+    margin-top: 15px;
+    width: 100px;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+

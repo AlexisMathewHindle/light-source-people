@@ -1,0 +1,25 @@
+/*
+Theme Name: Light Source People
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: Chris Ijoyah
+Author URI: http://chrisijoyah.com/
+Description: The default theme for Light Source People
+Version: 1.0
+License: Copyright (C) Tjarks and Tjarks Ltd - All Rights Reserved
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lightsourcepeople
+*/
+@import './node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import './node_modules/font-awesome/scss/font-awesome';
+@import 'variables';
+@import 'globals';
+@import 'header';
+@import 'home';
+@import 'sectors';
+@import 'contract';
+@import 'contact_us';
+@import 'successful_candidates';
+@import 'job_description';
+@import 'about';
+@import 'responsive';
+@import 'fonts';

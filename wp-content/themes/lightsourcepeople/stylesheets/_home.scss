@@ -1,0 +1,174 @@
+.home {
+  .hero {
+    background-image: url('images/hero_bg.jpg');
+    height: 646px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .down-arrow {
+      -vendor-animation-duration: 0.5s;
+      color: #ffffff;
+      text-align: center;
+      font-size: 30px;
+      margin-top: 100px;
+    }
+  }
+  .tagline {
+    background: rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    padding: 10px;
+    max-width: 630px;
+    margin: auto;
+    text-align: center;
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 200px;
+  }
+  .contact-tel-main {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .info {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .scroll-icon {
+    width: 19px;
+    display: block;
+    margin: 50px auto auto auto;
+    cursor: pointer;
+  }
+  .connecting-people {
+    text-align: center;
+    background-image: url(images/connecting-people-bg.png);
+    background-size: 604px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    .light {
+      @include lsp-copy();
+      display: inline-block;
+      font-size: 30px;
+    }
+    span {
+      display: block;
+      font-size: 14px;
+      margin-top: 10px;
+      font-weight: 400;
+      a {
+        -webkit-transition: opacity 0.5s ease;
+        -o-transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease;
+        color: $lsp-blue;
+        text-decoration: none;
+        .fa {
+          margin-left: 5px;
+          font-size: 8px;
+        }
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+  .signup {
+    background: $lsp-blue;
+    padding: 30px 0 30px 0;
+    form {
+      @include lsp-copy();
+      input {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        @include border-radius(4px);
+      }
+      .upload-cv {
+        text-align: center;
+        -webkit-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+        @include lsp-copy();
+        @include border-radius(4px);
+        border: 1px solid #ffffff;
+        background: none;
+        width: 100%;
+        display: block;
+        height: 100%;
+        padding: 10px;
+        color: #ffffff;
+        cursor: pointer;
+        .fa {
+          margin-right: 10px;
+        }
+        &:hover {
+          background: rgba(255, 255, 255, 0.4);
+        }
+      }
+      .signup-btn {
+        -webkit-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+        @include lsp-copy();
+        @include border-radius(4px);
+        border: 1px solid #ffffff;
+        background: none;
+        width: 100%;
+        display: block;
+        height: 100%;
+        padding: 10px;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover {
+          background: rgba(255, 255, 255, 0.4);
+        }
+      }
+    }
+    .copy {
+      @include lsp-copy();
+      width: 500px;
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff;
+      margin: 60px auto auto auto;
+    }
+  }
+  .summary {
+    background: #ffffff;
+    padding: 70px 0 70px 0;
+    .heading {
+      font-size: 30px;
+      text-align: center;
+      color: $lsp-black;
+      span {
+        font-family: 'Montserrat' !important;
+        font-weight: 700;
+        color: $lsp-black;
+      }
+      margin-bottom: 15px;
+    }
+    .subheading {
+      color: $lsp-blue;
+      text-align: center;
+      font-size: 18px;
+    }
+    .content {
+      color: $font-color;
+      padding: 0 150px 0 150px;
+      text-align: center;
+      margin-top: 15px;
+      @include lsp-copy();
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  }
+}

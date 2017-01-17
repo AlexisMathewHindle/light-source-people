@@ -1,0 +1,73 @@
+.jd-map {
+  height: 372px !important;
+}
+
+.ci-wrapper {
+  background: $lsp-blue;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  font-size: 24px;
+  @include lsp-copy;
+  span {
+    font-weight: 700;
+  }
+}
+
+.job-description {
+  padding: 50px 0 50px 0;
+  .apply-btn {
+    @include lsp-copy;
+    -webkit-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    display: block;
+    float: right;
+    background: $lsp-blue;
+    padding: 15px 30px 15px 30px;
+    color: #ffffff;
+    @include border-radius(4px);
+    text-decoration: none;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  .job-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #1E2226;
+  }
+  .job-info {
+    @include lsp-copy;
+    color: $lsp-blue;
+    margin-bottom: 30px;
+  }
+  .content-box {
+    .heading {
+      font-size: 24px;
+      color: #1E2226;
+      margin-bottom: 30px;
+    }
+    border-bottom: 1px solid #979797;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .apply-btn-bottom {
+    @include lsp-copy;
+    text-align: center;
+    width: 200px;
+    -webkit-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    display: block;
+    margin: 50px auto auto auto;
+    background: $lsp-blue;
+    padding: 15px;
+    color: #ffffff;
+    @include border-radius(4px);
+    text-decoration: none;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

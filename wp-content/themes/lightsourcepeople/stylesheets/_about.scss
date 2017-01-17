@@ -1,0 +1,67 @@
+.about {
+  padding-bottom: 100px;
+  .testimonial-about {
+    @include lsp-copy();
+    color: #ffffff;
+    background: $lsp-blue;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    margin-bottom: 50px;
+    .heading {
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    .left-quote {
+      margin-top: 40px;
+      float: left;
+      img {
+      	width: 43px;
+      }
+    }
+    .right-quote {
+      margin-top: 40px;
+      float: right;
+      img {
+      	width: 43px;
+      }
+    }
+    .quote {
+      width: 80%;
+      margin: 30px auto 30px auto;
+    }
+    .timestamp {
+      font-size: 12px;
+    }
+  }
+  .introduction {
+    padding: 50px 0 50px 0;
+    text-align: center;
+    .heading {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .subheading {
+      color: $lsp-blue;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .content {
+      @include lsp-copy();
+      color: $font-color;
+      margin-bottom: 30px;
+      padding: 0 150px 0 150px;
+    }
+    .name {
+      font-size: 26px;
+      margin-top: 40%;
+      text-align: left;
+    }
+    .job-title {
+      text-align: left;
+      font-size: 20px;
+      color: $lsp-blue;
+    }
+  }
+}

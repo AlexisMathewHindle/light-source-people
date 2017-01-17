@@ -1,0 +1,201 @@
+@media (max-width: 1024px) {
+  .home {
+    .tagline {
+      width: auto;
+    }
+    .signup form {
+      input {
+        margin-bottom: 15px;
+      }
+      .upload-cv {
+        margin-bottom: 15px;
+      }
+    }
+    .summary {
+      .content {
+        padding: 0;
+      }
+    }
+  }
+  .contract {
+    .downloads {
+      .download-btn {
+        margin: auto;
+        margin-top: 15px;
+      }
+    }
+  }
+  .about {
+    .introduction {
+      .name {
+        margin-top: 15px;
+      }
+      .name,
+      .job-title {
+        text-align: center;
+      }
+      .content {
+        padding: 0;
+      }
+      img {
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+  .contact-us {
+    #map {
+      height: 300px;
+    }
+  }
+  .clients {
+    .testimonial {
+      width: 50%;
+      padding: 0;
+      background-position: center center;
+    }
+    .rss-feed {
+      width: 50%;
+    }
+  }
+  .dream-role {
+    text-align: center;
+    #role {
+      margin: 15px auto auto auto;
+      width: 100%;
+    }
+    #location {
+      margin: 15px auto auto auto;
+      width: 100%;
+    }
+    form {
+      padding: 0;
+      input {
+        margin-top: 15px;
+      }
+    }
+    padding: 20px 0 20px 0;
+    button {
+      margin-top: 15px;
+      width: 100%;
+    }
+  }
+  .work-wu {
+    padding: 15px;
+  }
+  .vacancy-search {
+    input,
+    button {
+      margin-bottom: 15px;
+    }
+  }
+} // tablet
+@media (max-width: 480px) {
+  .home {
+    .hero {
+      height: 300px;
+      .down-arrow {
+        font-size: 20px;
+        margin-top: 0;
+      }
+    }
+    .tagline {
+      margin-top: 30px;
+      width: auto;
+      font-size: 24px;
+      @include lsp-copy();
+    }
+    .contact-tel-main {
+      @include lsp-copy();
+      width: auto;
+      font-size: 24px;
+    }
+    .info {
+      @include lsp-copy();
+      font-size: 16px;
+    }
+    .connecting-people {
+      margin-left: 15px;
+      margin-right: 15px;
+      background-size: contain;
+      font-size: 24px;
+      padding: 15px;
+      .light {
+        font-size: 24px;
+      }
+    }
+    .signup form {
+      input {
+        margin-bottom: 15px;
+      }
+      .upload-cv {
+        margin-bottom: 15px;
+      }
+    }
+    .signup .copy {
+      width: auto;
+    }
+    .summary {
+      padding: 30px 0 30px 0;
+      .content {
+        padding: 0;
+      }
+    }
+  }
+  .clients {
+    .testimonial {
+      height: auto;
+      padding: 30px;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+      .heading {
+        margin-top: 0;
+        @include lsp-copy;
+        font-size: 20px;
+        padding: 0;
+      }
+      .copy {
+        padding: 0;
+      }
+    }
+    .rss-feed {
+      padding: 30px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .vacancies .item .see-more-btn {
+    margin-top: 30px;
+    float: left;
+  }
+  .footer-top {
+    .logo-footer {
+      float: left;
+    }
+  }
+  .register {
+    font-size: 16px;
+  }
+} // mobile
+// other
+.responsive-menu {
+  display: none;
+  background: $lsp-blue;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      //text-align: center;
+      border-bottom: 1px solid #ffffff;
+      padding: 15px;
+      font-size: 20px;
+      a {
+        color: #ffffff;
+        @include lsp-copy;
+        text-decoration: none;
+      }
+    }
+  }
+}

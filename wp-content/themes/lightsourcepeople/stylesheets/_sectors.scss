@@ -1,0 +1,78 @@
+.sectors {
+  h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .sector-top {
+    padding: 100px 0 100px 0;
+    .summary {
+      font-size: 16px;
+      color: $lsp-blue;
+      margin-bottom: 40px;
+      @include lsp-copy();
+    }
+    .copy {
+      color: $font-color;
+    }
+  }
+  .sector-middle {
+    padding: 0px 0 50px 0;
+    .summary {
+      font-size: 20px;
+      color: $lsp-blue;
+      margin-bottom: 40px
+    }
+    .copy {
+      color: $font-color;
+    }
+    .chart {
+      float: right;
+      display: block;
+      padding: 50px 80px;
+    }
+  }
+  .sector-bottom {
+    h1 {
+      font-size: 20px;
+      color: $lsp-blue;
+    }
+    padding: 0px 0 50px 0;
+    .summary {
+      font-size: 20px;
+      color: $lsp-blue;
+      margin-bottom: 40px;
+    }
+    .copy {
+      color: $font-color;
+    }
+    .chart {
+      float: right;
+      display: block;
+      padding: 50px 80px;
+    }
+    .content-wrapper {
+      border-right: 1px solid #979797;
+      padding-right: 50px;
+    }
+    .content-wrapper-second {
+    	padding-left: 20px;
+    } 
+    .more-btn {
+    	background: $lsp-blue;
+    	padding: 10px 30px 10px 30px;
+    	margin-top: 20px;
+    	@include border-radius(4px);
+    	display: inline-block;
+    	color: #ffffff;
+      @include lsp-copy();
+      .fa-chevron-right {
+        margin-left: 5px;
+        font-size: 8px;
+      }
+    } 
+    .clients {
+      color: $lsp-blue;
+    }  
+  }
+}

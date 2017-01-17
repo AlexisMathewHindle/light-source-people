@@ -1,0 +1,90 @@
+.contact {
+  background: #F3F3F3;
+  span {
+    margin-left: 10px;
+  }
+  .tel {
+    float: right;
+    display: inline-block;
+    background: #DEDEDE;
+    padding: 5px 20px 5px 20px;
+  }
+  .mail {
+    float: right;
+    padding: 5px;
+    color: $lsp-blue;
+    @include lsp-copy();
+  }
+}
+
+.lsp-navbar {
+  .navigation {
+    background: #ffffff;
+    padding: 30px;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        display: inline-block;
+        margin-right: 25px;
+        .logo {
+          cursor: pointer;
+          width: 120px;
+        }
+        a {
+          outline: none;
+          color: #1E2226;
+          font-size: 15px;
+          text-decoration: none;
+          @include lsp-copy();
+          .fa {
+            margin-left: 10px;
+            color: $lsp-blue;
+            font-size: 10px;
+          }
+
+          &:hover {
+            color: $lsp-blue;
+          }
+        }
+      }
+    }
+  }
+  .social-links {
+    float: right;
+    padding: 45px 0 0 0;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        display: inline-block;
+        margin-left: 20px;
+        .logo {
+          width: 66px;
+        }
+        a {
+          .fa {
+            -webkit-transition: color 0.5s ease;
+            -o-transition: color 0.5s ease;
+            transition: color 0.5s ease;
+            margin-left: 10px;
+            color: #9B9B9B;
+            font-size: 24px;
+            &:hover {
+              color: $lsp-blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.stroke {
+  background: $lsp-blue;
+  height: 7px;
+}
+
+

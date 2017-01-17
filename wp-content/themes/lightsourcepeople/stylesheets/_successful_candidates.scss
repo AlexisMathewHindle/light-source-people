@@ -1,0 +1,121 @@
+.successful-candidates {
+  .sc-top {
+    padding: 50px 0 50px 0;
+  }
+  .reasons {
+    text-align: center;
+    .step-1 {
+      margin-top: 30px;
+      height: 360px;
+      padding: 30px;
+      background: #92bcee;
+      color: #ffffff;
+      .heading {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+      .title {
+        font-size: 20px;
+        margin-bottom: 50px;
+        @include lsp-copy();
+      }
+      .content {
+        font-size: 12px;
+        margin-bottom: 30px;
+        @include lsp-copy();;
+      }
+      .apply {
+        font-size: 12px;
+        color: #ffffff;
+        @include lsp-copy();
+        .fa-chevron-right {
+          font-size: 8px;
+          margin-left: 5px;
+        }
+      }
+    }
+    .step-2 {
+      margin-top: 30px;
+      height: 360px;
+      padding: 30px;
+      background: #6ea6e8;
+      color: #ffffff;
+      .heading {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+      .title {
+        font-size: 20px;
+        margin-bottom: 50px;
+        @include lsp-copy();
+      }
+      .content {
+        font-size: 12px;
+        margin-bottom: 30px;
+        @include lsp-copy();
+      }
+      .apply {
+        font-size: 12px;
+        color: #ffffff;
+        @include lsp-copy();
+        .fa-chevron-right {
+          font-size: 8px;
+          margin-left: 5px;
+        }
+      }
+    }
+    .step-3 {
+      margin-top: 30px;
+      height: 360px;
+      padding: 30px;
+      background: #4190e2;
+      color: #ffffff;
+      .heading {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+      .title {
+        font-size: 20px;
+        margin-bottom: 50px;
+        @include lsp-copy();
+      }
+      .content {
+        font-size: 12px;
+        margin-bottom: 30px;
+        @include lsp-copy();
+      }
+      .apply {
+        font-size: 12px;
+        color: #ffffff;
+        @include lsp-copy();
+        .fa-chevron-right {
+          font-size: 8px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .advice {
+    ul {
+      list-style: none;
+      margin-left: 50px;
+      padding: 0;
+      li {
+        @include lsp-copy();
+        padding-bottom: 30px;
+        color: #9B9B9B;
+        .tick,
+        .cross {
+          width: 30px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .process {
+    text-align: center;
+    .process-img {
+      margin-top: 50px;
+    }
+  }
+}
