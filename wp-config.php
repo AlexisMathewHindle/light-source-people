@@ -18,18 +18,32 @@
  * @package WordPress
  */
 
+/** Local development credentials */
+if ($_SERVER['SERVER_NAME'] == 'lightsourcepeople.com') {
+    $dbName = 'lightsou1_production';
+    $dbUser = 'lightsou1_admin';
+    $dbPassword = '128c%8F';
+    $dbHost = '10.169.0.131';
+} else {
+    $dbName = 'wordpress_default';
+    $dbUser = 'wp';
+    $dbPassword = 'wp';
+    $dbHost = 'localhost';
+}
+
+
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress_default' );
+define( 'DB_NAME', $dbName );
 
 /** MySQL database username */
-define( 'DB_USER', 'wp' );
+define( 'DB_USER', $dbUser );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'wp' );
+define( 'DB_PASSWORD', $dbPassword );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', $dbHost );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
