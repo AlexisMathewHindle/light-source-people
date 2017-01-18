@@ -24,22 +24,24 @@ get_header(); ?>
 
 
 <div class="container-fluid vacancy-search">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <input type="text" name="" placeholder="Keyword" autocomplete="off">
-            </div>
-            <div class="col-md-3">
-                <input type="text" name="" placeholder="Location" autocomplete="off">
-            </div>
-            <div class="col-md-3">
-                <button>Contract</button>
-            </div>
-            <div class="col-md-3">
-                <button>Update Results</button>
+    <form action="<?php echo get_permalink(84); ?>" method="get">    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" name="query" placeholder="Keyword" autocomplete="off">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="location" placeholder="Location" autocomplete="off">
+                </div>
+                <div class="col-md-3">
+                    <button>Contract</button>
+                </div>
+                <div class="col-md-3">
+                    <button>Update Results</button>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
 </div>
 
 
