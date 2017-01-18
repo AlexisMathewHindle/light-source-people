@@ -8163,6 +8163,12 @@ body {
   font-family: Montserrat;
   line-height: 1.6; }
 
+.page-title {
+  padding-top: 50px;
+  color: #4990E2; }
+  .page-title h1 {
+    margin-bottom: 0; }
+
 h1 {
   font-size: 30px;
   margin-top: 0;

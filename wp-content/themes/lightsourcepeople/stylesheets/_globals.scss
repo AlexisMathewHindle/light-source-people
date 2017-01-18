@@ -9,6 +9,14 @@ body {
   line-height: 1.6;
 }
 
+.page-title {
+  padding-top: 50px;
+  color: $lsp-blue;
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
 h1 {
   font-size: 30px;
   margin-top: 0;

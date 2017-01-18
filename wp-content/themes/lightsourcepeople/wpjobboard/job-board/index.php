@@ -19,7 +19,13 @@
  */
 
 ?>
-
+<?php if(!is_front_page()): ?>
+<div class="container-fluid page-title">
+    <div class="container">
+        <h1><?php the_title(); ?></h1>
+    </div>
+</div>
+<?php endif; ?>
 <div class="container-fluid vacancies">
 <div class="container">
 <?php $result = apply_filters("wpjb_filter_jobs", wpjb_find_jobs($param), $atts) ?>
