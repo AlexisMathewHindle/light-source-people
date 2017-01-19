@@ -25,10 +25,10 @@ if ($_SERVER['SERVER_NAME'] == 'lightsourcepeople.com') {
     $dbPassword = '128c%8F';
     $dbHost = '10.169.0.131';
 } else {
-    $dbName = 'wordpress_default';
-    $dbUser = 'wp';
-    $dbPassword = 'wp';
-    $dbHost = 'localhost';
+    $dbName = 'lightsou1_production';
+    $dbUser = 'lightsou1_admin';
+    $dbPassword = '128c%8F';
+    $dbHost = '91.208.99.2:1171';
 }
 
 
