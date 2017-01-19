@@ -8159,6 +8159,9 @@ button.close {
   font-family: 'Montserrat Light';
   src: url(fonts/Montserrat-Light.ttf); }
 
+.container {
+  width: 1200px; }
+
 body {
   font-family: Montserrat;
   line-height: 1.6; }
@@ -8402,8 +8405,7 @@ h2 {
   color: #ffffff;
   font-family: Montserrat Light; }
   .register a {
-    color: inherit;
-    text-decoration: underline; }
+    color: inherit; }
   .register .doit {
     position: relative;
     margin-top: -100px; }
@@ -8415,6 +8417,8 @@ h2 {
   background: #4990E2; }
   .vacancy-search .btn-group {
     width: 100%; }
+  .vacancy-search .job-type-select {
+    height: 42px; }
   .vacancy-search input {
     width: 100%;
     padding: 10px;
@@ -8425,8 +8429,7 @@ h2 {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     border-radius: 4px;
-    color: #9B9B9B;
-    text-align: center; }
+    color: #9B9B9B; }
   .vacancy-search button {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -8540,6 +8543,9 @@ h2 {
     width: 100px;
     display: block; }
 
+.key-points {
+  margin-top: 50px !important; }
+
 .contact {
   background: #F3F3F3; }
   .contact span {
@@ -8557,14 +8563,15 @@ h2 {
 
 .lsp-navbar .navigation {
   background: #ffffff;
-  padding: 30px; }
+  padding: 30px 0 30px 0;
+  float: left; }
   .lsp-navbar .navigation ul {
     list-style: none;
     padding: 0;
     margin: 0; }
     .lsp-navbar .navigation ul li {
       display: inline-block;
-      margin-right: 25px; }
+      margin-right: 40px; }
       .lsp-navbar .navigation ul li .logo {
         cursor: pointer;
         width: 120px; }
@@ -8590,14 +8597,14 @@ h2 {
     margin: 0; }
     .lsp-navbar .social-links ul li {
       display: inline-block;
-      margin-left: 20px; }
+      margin-left: 10px; }
       .lsp-navbar .social-links ul li .logo {
         width: 66px; }
       .lsp-navbar .social-links ul li a .fa {
         -webkit-transition: color 0.5s ease;
         -o-transition: color 0.5s ease;
         transition: color 0.5s ease;
-        margin-left: 10px;
+        margin-left: 5px;
         color: #9B9B9B;
         font-size: 24px; }
         .lsp-navbar .social-links ul li a .fa:hover {
@@ -8842,15 +8849,16 @@ h2 {
 .contract .seeking {
   padding: 100px 0 50px 0; }
   .contract .seeking ul {
-    list-style: none;
-    padding: 0;
+    color: #4990E2;
     margin-top: 40px; }
     .contract .seeking ul .fa {
       color: #4990E2; }
-    .contract .seeking ul li a {
-      color: #9B9B9B;
-      padding-bottom: 15px;
-      display: block; }
+    .contract .seeking ul li {
+      margin-bottom: 20px; }
+      .contract .seeking ul li a {
+        color: #9B9B9B;
+        padding-bottom: 15px;
+        display: block; }
   .contract .seeking .contract-img {
     width: 300px;
     display: block;
@@ -8967,10 +8975,11 @@ h2 {
   padding: 50px 0 50px 0; }
 
 .successful-candidates .reasons {
+  padding-top: 50px;
   text-align: center; }
   .successful-candidates .reasons .step-1 {
     margin-top: 30px;
-    height: 360px;
+    height: 400px;
     padding: 30px;
     background: #92bcee;
     color: #ffffff; }
@@ -8979,7 +8988,7 @@ h2 {
       margin-bottom: 30px; }
     .successful-candidates .reasons .step-1 .title {
       font-size: 20px;
-      margin-bottom: 50px;
+      margin-bottom: 15px;
       font-family: Montserrat Light; }
     .successful-candidates .reasons .step-1 .content {
       font-size: 12px;
@@ -8994,7 +9003,7 @@ h2 {
         margin-left: 5px; }
   .successful-candidates .reasons .step-2 {
     margin-top: 30px;
-    height: 360px;
+    height: 400px;
     padding: 30px;
     background: #6ea6e8;
     color: #ffffff; }
@@ -9003,7 +9012,7 @@ h2 {
       margin-bottom: 30px; }
     .successful-candidates .reasons .step-2 .title {
       font-size: 20px;
-      margin-bottom: 50px;
+      margin-bottom: 15px;
       font-family: Montserrat Light; }
     .successful-candidates .reasons .step-2 .content {
       font-size: 12px;
@@ -9018,7 +9027,7 @@ h2 {
         margin-left: 5px; }
   .successful-candidates .reasons .step-3 {
     margin-top: 30px;
-    height: 360px;
+    height: 400px;
     padding: 30px;
     background: #4190e2;
     color: #ffffff; }
@@ -9027,7 +9036,7 @@ h2 {
       margin-bottom: 30px; }
     .successful-candidates .reasons .step-3 .title {
       font-size: 20px;
-      margin-bottom: 50px;
+      margin-bottom: 15px;
       font-family: Montserrat Light; }
     .successful-candidates .reasons .step-3 .content {
       font-size: 12px;
@@ -9038,6 +9047,30 @@ h2 {
       color: #ffffff;
       font-family: Montserrat Light; }
       .successful-candidates .reasons .step-3 .apply .fa-chevron-right {
+        font-size: 8px;
+        margin-left: 5px; }
+  .successful-candidates .reasons .step-4 {
+    margin-top: 30px;
+    height: 400px;
+    padding: 30px;
+    background: #5487bd;
+    color: #ffffff; }
+    .successful-candidates .reasons .step-4 .heading {
+      font-size: 14px;
+      margin-bottom: 30px; }
+    .successful-candidates .reasons .step-4 .title {
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-family: Montserrat Light; }
+    .successful-candidates .reasons .step-4 .content {
+      font-size: 12px;
+      margin-bottom: 30px;
+      font-family: Montserrat Light; }
+    .successful-candidates .reasons .step-4 .apply {
+      font-size: 12px;
+      color: #ffffff;
+      font-family: Montserrat Light; }
+      .successful-candidates .reasons .step-4 .apply .fa-chevron-right {
         font-size: 8px;
         margin-left: 5px; }
 
@@ -9172,7 +9205,7 @@ h2 {
       font-family: Montserrat Light;
       color: #9B9B9B;
       margin-bottom: 30px;
-      padding: 0 150px 0 150px; }
+      padding: 0 100px 0 100px; }
     .about .introduction .name {
       font-size: 26px;
       margin-top: 40%;

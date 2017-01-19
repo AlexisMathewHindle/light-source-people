@@ -2,13 +2,13 @@
 	.seeking {
 		padding: 100px 0 50px 0;
 		ul {
-			list-style: none;
-			padding: 0;
+			color: $lsp-blue;
 			margin-top: 40px;
 			.fa {
 				color: $lsp-blue;
 			}
 			li {
+				margin-bottom: 20px;
 				a {
 					color: $font-color;
 					padding-bottom: 15px;

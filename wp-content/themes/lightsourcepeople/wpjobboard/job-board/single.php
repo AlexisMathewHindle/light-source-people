@@ -23,6 +23,104 @@
  <?php $this->render("job.php") ?>
 
 
+
+
+
+<div class="wpjb wpjb-job wpjb-page-single">
+
+    <?php wpjb_flash() ?>
+
+    <?php if(!wpjb_conf("front_hide_apply_link")): ?>
+    
+    <?php if($members_only): ?>
+    <div class="wpjb-job-apply" style="margin:24px 0px;">
+        <div class="wpjb-flash-error wpjb-flash-small">
+            <span class="wpjb-glyphs wpjb-icon-attention"><?php esc_html_e($form_error) ?></span>
+        </div>
+        
+        <div>
+            <a class="wpjb-button" href="<?php esc_attr_e(wpjr_link_to("login")) ?>"><?php _e("Login", "wpjobboard") ?></a>
+            <a class="wpjb-button" href="<?php esc_attr_e(wpjr_link_to("register")) ?>"><?php _e("Register", "wpjobboard") ?></a>
+            
+            <?php do_action("wpjb_tpl_single_actions", $job) ?>
+        </div>
+    </div>
+    <?php elseif($can_apply): ?>
+    
+    <div class="wpjb-job-apply" id="wpjb-scroll" style="margin:24px 0px;">
+         <div>
+<!--             <?php if($application_url): ?>
+            <a class="wpjb-button" href="<?php esc_attr_e($application_url) ?>"><?php _e("Apply", "wpjobboard") ?></a>
+            <?php else: ?>
+            <a class="wpjb-button wpjb-form-toggle wpjb-form-job-apply" href="<?php esc_attr_e(wpjb_link_to("job", $job, array("form"=>"apply"))) ?>#wpjb-scroll" rel="nofollow" data-wpjb-form="wpjb-form-job-apply"><?php _e("Apply Online", "wpjobboard") ?> <span class="wpjb-glyphs wpjb-icon-down-open">&nbsp;</span></a>
+            <?php endif; ?>
+           
+            
+            <?php do_action("wpjb_tpl_single_actions", $job) ?> -->
+        </div> 
+        
+        <div id="wpjb-form-job-apply" class="wpjb-form-slider wpjb-layer-inside <?php if(!$show->apply): ?>wpjb-none<?php endif;?>">
+            
+            <?php if($form_error): ?>
+            <div class="wpjb-flash-error wpjb-flash-small">
+                <span class="wpjb-glyphs wpjb-icon-attention"><?php esc_html_e($form_error) ?></span>
+            </div>
+            <?php endif; ?>
+            
+            <form id="wpjb-apply-form" action="<?php esc_attr_e(wpjb_link_to("job", $job, array("form"=>"apply"))) ?>#wpjb-scroll" method="post" enctype="multipart/form-data" class="wpjb-form wpjb-form-nolines">
+                <?php echo $form->renderHidden() ?>
+                <?php foreach($form->getReordered() as $group): ?>
+                <?php /* @var $group stdClass */ ?> 
+                
+                <?php if($group->title): ?>
+                <div class="wpjb-legend"><?php esc_html_e($group->title) ?></div>
+                <?php endif; ?>
+                
+                <fieldset class="wpjb-fieldset-<?php esc_attr_e($group->getName()) ?>">
+
+                    <?php foreach($group->getReordered() as $name => $field): ?>
+                    <?php /* @var $field Daq_Form_Element */ ?>
+                    <div class="<?php wpjb_form_input_features($field) ?>">
+
+                        <label class="wpjb-label">
+                            <?php esc_html_e($field->getLabel()) ?>
+                            <?php if($field->isRequired()): ?><span class="wpjb-required">*</span><?php endif; ?>
+                        </label>
+
+                        <div class="wpjb-field">
+                            <?php wpjb_form_render_input($form, $field) ?>
+                            <?php wpjb_form_input_hint($field) ?>
+                            <?php wpjb_form_input_errors($field) ?>
+                        </div>
+
+                    </div>
+                    <?php endforeach; ?>
+                </fieldset>
+                <?php endforeach; ?>
+                
+                <div class="wpjb-legend"></div>
+                
+                <fieldset>
+                    <input type="submit" class="wpjb-submit" id="wpjb_submit" value="<?php _e("Send Application", "wpjobboard") ?>" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <?php endif; ?>
+    
+
+    
+    <?php endif; ?>
+</div>
+
+
+
+
+
+
+
+
+
 <?php $relatedJobs = wpjb_find_jobs($related); ?>
 <?php if($show_related && $relatedJobs->total > 0): ?>
 <div class="container-fluid vacancies">
@@ -78,5 +176,9 @@
     </div>
 </div>
 <?php endif; ?>
+
+
+
+
 
 

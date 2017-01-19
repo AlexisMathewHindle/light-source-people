@@ -19,39 +19,12 @@
  */
 
 ?>
-
-<?php if(is_page(84)): ?>
-<div class="container-fluid vacancy-search">
-    <form action="" method="get">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <input type="text" name="query" placeholder="Keyword" autocomplete="off" value="<?php echo isset($_GET['query'])? $_GET['query'] : '' ?>">
-            </div>
-            <div class="col-md-3">
-                <input type="text" name="location" placeholder="Location" autocomplete="off" value="<?php echo isset($_GET['location'])? $_GET['location'] : '' ?>">
-            </div>
-            <div class="col-md-3">
-                <button>Contract</button>
-            </div>
-            <div class="col-md-3">
-                <button>Update Results</button>
-            </div>
-        </div>
-    </div>
-    </form>
-</div>
-<?php endif; ?>
-
-
-
-
 <?php if(!is_front_page()): ?>
-<div class="container-fluid page-title">
+<!-- <div class="container-fluid page-title">
     <div class="container">
         <h1><?php the_title(); ?></h1>
     </div>
-</div>
+</div> -->
 <?php endif; ?>
 <div class="container-fluid vacancies">
 <div class="container">

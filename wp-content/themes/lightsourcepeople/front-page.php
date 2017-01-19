@@ -14,10 +14,10 @@ get_header(); ?>
             The Energy Recruitment Sepcialists
         </div>
         <div class="contact-tel-main">
-            0208 123 4567
+            020 3905 6222
         </div>
         <div class="info">
-            Call us and speak to our industry employement specialists
+            Call us and speak to our industry employment specialists
         </div>
 
         <div class="down-arrow">
@@ -73,7 +73,7 @@ get_header(); ?>
                         The Engery Recruitment Sepcialists
                     </div>
                     <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Light Source People’ is a specialist recruiter dedicated to servicing the international energy industry.  We cover permanent and contract positions across the full spectrum of power generation sources.  With 20 years’ experience, gleaned servicing clients and candidates the world over we understand the value of identifying and sourcing market leading talent and providing them with the right opportunity in which to thrive.  Here at Light Source People the emphasis is on listening and truly understanding the needs of our customers.  Only then can we ensure we provide market leading service levels that make a real difference to our customers.
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ get_header(); ?>
                         <div class="copy">
                             View our client testimonials and see how we have helped our client succeed.
                         </div>
-                        <a href="#" class="testimonial-btn">Testimonials</a>
+                        <a href="<?php echo get_permalink(62) ?>" class="testimonial-btn">Testimonials</a>
                     </div>
 
                     <div class="rss-feed">
@@ -132,7 +132,7 @@ get_header(); ?>
                         <div class="copy">
                             View our client testimonials and see how we have helped our client succeed.
                         </div>
-                        <a href="#" class="testimonial-btn">Testimonials</a>
+                        <a href="<?php echo get_permalink(62) ?>" class="testimonial-btn">Testimonials</a>
                     </div>
                     <div class="rss-feed">
                         <div class="heading">
@@ -161,7 +161,7 @@ get_header(); ?>
                 <div class="heading">
                     Current Vacancies
                 </div>
-                <span class="see-vacancies"><a href="#">See Vancancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
+                <span class="see-vacancies"><a href="<?php echo get_permalink(56) ?>">See Vancancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -170,7 +170,7 @@ get_header(); ?>
 
 
 
-    <?php echo do_shortcode("[wpjb_jobs_list]"); ?>
+    <?php echo do_shortcode("[wpjb_jobs_list count=3]"); ?>
 
 
 

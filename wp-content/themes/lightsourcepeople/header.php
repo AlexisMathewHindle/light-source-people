@@ -84,7 +84,7 @@
                                 'theme_location' => 'header-menu',
                                 'container' => false,
                                 'items_wrap' => '%3$s',
-                                'link_after' => ' <i class="fa fa-chevron-down" aria-hidden="true"></i>'
+                                //'link_after' => ' <i class="fa fa-chevron-down" aria-hidden="true"></i>'
                             ) ); ?>
                         </ul>                                                
                     </div><!--/navigation-->
@@ -97,3 +97,31 @@
     <div class="container-fluid stroke">
     </div>
     <!--/stroke-->
+
+<?php if(!is_front_page()): ?>
+<div class="container-fluid vacancy-search">
+    <form action="<?php echo get_permalink(56); ?>" method="get">    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" name="query" placeholder="Keyword" autocomplete="off">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="location" placeholder="Location" autocomplete="off">
+                </div>
+                <div class="col-md-3">
+                   <select class="form-control job-type-select" name="type">
+                      <option value="3">Permanent</option>
+                      <option value="5">Contract</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <button>Update Results</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<?php endif; ?>
+
+

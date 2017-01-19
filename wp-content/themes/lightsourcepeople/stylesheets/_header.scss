@@ -20,14 +20,15 @@
 .lsp-navbar {
   .navigation {
     background: #ffffff;
-    padding: 30px;
+    padding: 30px 0 30px 0;
+    float: left;
     ul {
       list-style: none;
       padding: 0;
       margin: 0;
       li {
         display: inline-block;
-        margin-right: 25px;
+        margin-right: 40px;
         .logo {
           cursor: pointer;
           width: 120px;
@@ -60,7 +61,7 @@
       margin: 0;
       li {
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 10px;
         .logo {
           width: 66px;
         }
@@ -69,7 +70,7 @@
             -webkit-transition: color 0.5s ease;
             -o-transition: color 0.5s ease;
             transition: color 0.5s ease;
-            margin-left: 10px;
+            margin-left: 5px;
             color: #9B9B9B;
             font-size: 24px;
             &:hover {

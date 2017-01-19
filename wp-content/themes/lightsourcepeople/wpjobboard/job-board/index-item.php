@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="description">
-                        <?php echo substr($job->job_description, 0, 400) ; ?>...
+                        <?php echo substr($job->job_description, 0, 300) ; ?>...
                     </div>
                     <div class="info">
                         <span><i class="fa fa-briefcase" aria-hidden="true"></i>

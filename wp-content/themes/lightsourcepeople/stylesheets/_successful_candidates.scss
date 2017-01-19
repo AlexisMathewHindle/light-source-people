@@ -3,10 +3,11 @@
     padding: 50px 0 50px 0;
   }
   .reasons {
+    padding-top: 50px;
     text-align: center;
     .step-1 {
       margin-top: 30px;
-      height: 360px;
+      height: 400px;
       padding: 30px;
       background: #92bcee;
       color: #ffffff;
@@ -16,13 +17,14 @@
       }
       .title {
         font-size: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
         @include lsp-copy();
       }
       .content {
         font-size: 12px;
         margin-bottom: 30px;
-        @include lsp-copy();;
+        @include lsp-copy();
+        ;
       }
       .apply {
         font-size: 12px;
@@ -36,7 +38,7 @@
     }
     .step-2 {
       margin-top: 30px;
-      height: 360px;
+      height: 400px;
       padding: 30px;
       background: #6ea6e8;
       color: #ffffff;
@@ -46,7 +48,7 @@
       }
       .title {
         font-size: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
         @include lsp-copy();
       }
       .content {
@@ -66,7 +68,7 @@
     }
     .step-3 {
       margin-top: 30px;
-      height: 360px;
+      height: 400px;
       padding: 30px;
       background: #4190e2;
       color: #ffffff;
@@ -76,7 +78,37 @@
       }
       .title {
         font-size: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
+        @include lsp-copy();
+      }
+      .content {
+        font-size: 12px;
+        margin-bottom: 30px;
+        @include lsp-copy();
+      }
+      .apply {
+        font-size: 12px;
+        color: #ffffff;
+        @include lsp-copy();
+        .fa-chevron-right {
+          font-size: 8px;
+          margin-left: 5px;
+        }
+      }
+    }
+    .step-4 {
+      margin-top: 30px;
+      height: 400px;
+      padding: 30px;
+      background: #5487bd;
+      color: #ffffff;
+      .heading {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+      .title {
+        font-size: 20px;
+        margin-bottom: 15px;
         @include lsp-copy();
       }
       .content {

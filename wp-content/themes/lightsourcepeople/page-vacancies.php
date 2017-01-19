@@ -12,38 +12,13 @@ get_header(); ?>
     <div class="container">
         <div class="col-md-12">
             <div class="heading">
-                Contract Vacancies
+                Vacancies
             </div>
-            <span class="call-us">Call us on: 0208 123 4556</span>
+            <span class="call-us">Call us on: 020 3905 6222</span>
         </div>
     </div>
 </div>
 <!--/current vacancies-->
-
-
-
-
-<div class="container-fluid vacancy-search">
-    <form action="<?php echo get_permalink(84); ?>" method="get">    
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <input type="text" name="query" placeholder="Keyword" autocomplete="off">
-                </div>
-                <div class="col-md-3">
-                    <input type="text" name="location" placeholder="Location" autocomplete="off">
-                </div>
-                <div class="col-md-3">
-                    <button>Contract</button>
-                </div>
-                <div class="col-md-3">
-                    <button>Update Results</button>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>
-
 
 <?php echo do_shortcode("[wpjb_jobs_list]"); ?>
 

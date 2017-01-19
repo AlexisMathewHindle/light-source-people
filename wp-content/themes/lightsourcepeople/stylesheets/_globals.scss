@@ -4,6 +4,10 @@
   src: url(fonts/Montserrat-Light.ttf);
 }
 
+.container {
+  width: 1200px;
+}
+
 body {
   font-family: Montserrat;
   line-height: 1.6;
@@ -290,7 +294,6 @@ h2 {
   @include lsp-copy();
   a {
     color: inherit;
-    text-decoration: underline;
   }
   .doit {
     position: relative;
@@ -307,6 +310,9 @@ h2 {
   .btn-group {
     width: 100%;
   }
+  .job-type-select {
+    height: 42px;
+  }
   input {
     width: 100%;
     padding: 10px;
@@ -314,7 +320,7 @@ h2 {
     border: none;
     @include border-radius(4px);
     color: $font-color;
-    text-align: center;
+    //text-align: center;
   }
   button {
     @include border-radius(4px);
@@ -425,7 +431,7 @@ h2 {
           margin-left: 5px;
           font-size: 8px;
         }
-      } 
+      }
     }
   }
 }
@@ -435,7 +441,7 @@ h2 {
   .hamburger {
     float: right;
     font-size: 40px;
-    .fa  {
+    .fa {
       vertical-align: super;
     }
   }
@@ -446,12 +452,6 @@ h2 {
   }
 }
 
-
-
-
-
-
-
-
-
-
+.key-points {
+  margin-top: 50px !important;
+}

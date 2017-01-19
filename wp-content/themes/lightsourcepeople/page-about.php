@@ -8,39 +8,6 @@
  */
 
 get_header(); ?>
-<div class="container-fluid dream-role">
-    <div class="container">
-        <div class="row visible-xs visible-sm">
-            <form>
-                <div class="col-md-12">
-                    My dream role is...
-                </div>
-                <div class="col-md-4">
-                    <input type="text" name="" autocomplete="off" placeholder="Job Role" id="role">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" name="" id="location" autocomplete="off" placeholder="Location">
-                </div>
-                <div class="col-md-4">
-                    <button class="search-btn">Search</button>
-                </div>
-            </form>
-        </div>
-        <div class="row visible-lg">
-            <div class="col-md-12">
-                <form>
-                    My dream role is...
-                    <input type="text" name="" autocomplete="off" placeholder="Job Role" id="role"> in
-                    <input type="text" name="" id="location" autocomplete="off" placeholder="Location">
-                    <button class="search-btn">Search</button>
-                </form>
-            </div>
-        </div>
-
-    </div>
-</div>
-<!--/dream role-->
-
 <div class="about">
     <div class="container-fluid introduction">
         <div class="container">
@@ -55,7 +22,7 @@ get_header(); ?>
                     </div>
 
                     <div class="content">
-                        Lorem ipsum dolor sit amet, id nam nemore elaboraret, ius no epicuri splendide disputando, cetero facilis lucilius no pri. Error deseruisse id cum. Vide audiam sensibus eu vis. Ut pri prompta virtute pertinacia, eu quo idque inani neglegentur. Lorem ipsum dolor sit amet, id nam nemore elaboraret, ius no epicuri splendide disputando, cetero facilis lucilius no pri. Error deseruisse id cum. Vide audiam sensibus eu vis. Ut pri prompta virtute pertinacia, eu quo idque inani neglegentur.Lorem ipsum dolor sit amet, id nam nemore elaboraret, ius no epicuri splendide disputando, cetero facilis lucilius no pri. Error deseruisse id cum. Vide audiam sensibus eu vis. Ut pri prompta virtute pertinacia, eu quo idque inani neglegentur.
+‘Light Source People’ is a specialist recruiter dedicated to servicing the international energy industry.  We cover permanent and contract positions across the full spectrum of power generation sources.  With 20 years’ experience, gleaned servicing clients and candidates the world over we understand the value of identifying and sourcing market leading talent and providing them with the right opportunity in which to thrive.  Here at Light Source People the emphasis is on listening and truly understanding the needs of our customers.  Only then can we ensure we provide market leading service levels that make a real difference to our customers.For an informal confidential discussion to find out if we can help you, please call… 020 3456 7890
                     </div>
                 </div>
             </div>
@@ -115,12 +82,12 @@ get_header(); ?>
                 <div class="col-md-12">
                     <div class="testimonial">
                         <div class="heading">
-                            Joing the Team at Light Source People!
+                            Join the Team at Light Source People!
                         </div>
                         <div class="copy">
                             Send us a short email with a copy of your CV and we will be in touch!
                         </div>
-                        <a href="#" class="testimonial-btn">Contact Us</a>
+                        <a href="<?php echo get_permalink(60); ?>" class="testimonial-btn">Contact Us</a>
                     </div>
                     <div class="rss-feed">
                         <div class="heading">
@@ -130,10 +97,10 @@ get_header(); ?>
                             Ever considered a career in recruitment?
                         </div>
                         <div class="copy">
-                            Australia’s government has preliminarily blocked Chinese and Hong Kong bidders from taking a controlling stake in the country’s largest electricity network, citing worries over national security.
+                            If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on 020 3905 6222 or email
                         </div>
                         <div class="timestamp">
-                            <a href="#">Apply Now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            <a href="<?php echo get_permalink(64); ?>">Apply Now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>

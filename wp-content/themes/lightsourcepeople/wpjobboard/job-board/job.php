@@ -75,7 +75,15 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <a href="#" class="apply-btn-bottom">Apply for this role</a>
+
+      <?php if($application_url): ?>
+        <a href="<?php esc_attr_e($application_url) ?>" class="apply-btn-bottom wpjb-form-toggle" data-wpjb-form="wpjb-form-job-apply" rel="nofollow">Apply for this role</a>
+
+      <?php else: ?>
+        <a href="<?php esc_attr_e(wpjb_link_to("job", $job, array("form"=>"apply"))) ?>#wpjb-scroll" class="apply-btn-bottom wpjb-form-toggle" data-wpjb-form="wpjb-form-job-apply" rel="nofollow">Apply for this role</a>
+      <?php endif; ?>
+
+
       </div>
     </div>
   </div>
