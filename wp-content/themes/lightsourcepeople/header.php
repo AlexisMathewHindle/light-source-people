@@ -35,6 +35,7 @@
     <div class="container-fluid responsive-menu">
         <ul>
             <li><a href="<?php echo get_permalink(38); ?>">About</a></li>
+            <li><a href="<?php echo get_permalink(59); ?>">Sectors</a></li>
             <li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>
             <li><a href="<?php echo get_permalink(30); ?>">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
             <li><a href="<?php echo get_permalink(32); ?>">Vacancies</a></li>
@@ -78,6 +79,7 @@
                         <ul>
                             <li><a href="/"><img src="<?php echo get_template_directory_uri() ?>/images/logo.svg" class="logo"></li>
                             <li><a href="<?php echo get_permalink(38); ?>">About</a></li>
+                            <li><a href="<?php echo get_permalink(59); ?>">Sectors</a></li>
                             <li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>
                             <li id="candidates">
                                 <a href="<?php echo get_permalink(30); ?>">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
