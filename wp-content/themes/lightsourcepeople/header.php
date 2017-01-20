@@ -51,7 +51,7 @@
                 <div class="col-md-12">
                     <div class="contact">
                         <span class="tel">020 3905 6222</span>
-                        <a href="mailto:mail@lightsourcepeople.com"><span class="mail">mail@lightsourcepeople.com</span></a>
+                        <a href="mailto:mail@lightsourcepeople.com"><span class="mail">hello@lightsourcepeople.com</span></a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                             </li>
                             <li><a href="#" title="linkedin" alt="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
-                            <li><a href="#" title="instagram" alt="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <!-- <li><a href="#" title="instagram" alt="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
                             </li>
                         </ul>
                     </div>

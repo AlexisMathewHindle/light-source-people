@@ -10,7 +10,7 @@
 get_header(); ?>
 <div class="contract">
     <div class="container-fluid seeking">
-        <div class="container lsp-divider">
+        <!-- <div class="container lsp-divider">
             <div class="row">
                 <div class="col-md-5">
                     <img src="<?php echo get_template_directory_uri() ?>/images/contract.png" class="contract-img">
@@ -33,7 +33,7 @@ Midwestern wind farms by the University of Wisconsin.
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="container lsp-divider extra-padding-top">
             <div class="row">
@@ -50,7 +50,7 @@ Midwestern wind farms by the University of Wisconsin.
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/offer.png" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/contract.png" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -77,6 +77,9 @@ Midwestern wind farms by the University of Wisconsin.
                         <div class="row">
                             <div class="col-md-12">
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.pdf" class="download-btn timesheets" download>Timesheets</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
                             </div>                      
                         </div>
