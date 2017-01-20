@@ -34,11 +34,12 @@
 
     <div class="container-fluid responsive-menu">
         <ul>
-            <?php wp_nav_menu( array( 
-                'theme_location' => 'header-menu',
-                'container' => false,
-                'items_wrap' => '%3$s',
-            ) ); ?>
+            <li><a href="/client_successful_candidates.html">Clientssss</a></li>
+            <li><a href="/successful_candidates.html">Candidates</a></li>
+            <li><a href="/vacancies.html">Vacancies</a></li>
+            <li><a href="/contract.html">Careers</a></li>
+            <li><a href="/contact_us.html">Contact</a></li>
+            <li><a href="/about.html">About</a></li>
         </ul>
     </div>
     <!--/responsive menu-->
@@ -74,19 +75,21 @@
                         </ul>
                     </div>
                     <div class="navigation">
-                        <ul>   
+                        <ul>
+                            <li><a href="/"><img src="<?php echo get_template_directory_uri() ?>/images/logo.svg" class="logo"></li>
+                            <li><a href="/client_successful_candidates.html">About</a></li>
+                            <li><a href="/successful_candidates.html">Clients</a></li>
                             <li>
-                                <a href="/">
-                                    <img src="<?php echo get_template_directory_uri() ?>/images/logo.svg" class="logo">
-                                </a>
-                            </li>                                     
-                            <?php wp_nav_menu( array( 
-                                'theme_location' => 'header-menu',
-                                'container' => false,
-                                'items_wrap' => '%3$s',
-                                //'link_after' => ' <i class="fa fa-chevron-down" aria-hidden="true"></i>'
-                            ) ); ?>
-                        </ul>                                                
+                                <a href="/vacancies.html">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                <ul>
+                                    <li><a href="#">Permanent</a></li>
+                                    <li><a href="#">Permanent</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/contract.html">Vacancies</a></li>
+                            <li><a href="/contact_us.html">Careers</a></li>
+                            <li><a href="/about.html">Contact</a></li>
+                        </ul>                                              
                     </div><!--/navigation-->
                 </div>
             </div>

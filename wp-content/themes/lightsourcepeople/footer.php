@@ -13,40 +13,30 @@
         <div class="row">
             <div class="col-md-2">
                 <ul>
-                    <li><a href="#" class="heading">Quick Links</a>
-                    </li>
-                    <?php wp_nav_menu( array( 
-                        'theme_location' => 'quick-links-menu',
-                        'container' => false,
-                        'items_wrap' => '%3$s',
-                    ) ); ?>
+                    <li><a href="#" class="heading">Quick Links</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Work With Us</a></li>
                 </ul>
             </div>
             <div class="col-md-2">
                 <ul>
-                    <li><a href="#" class="heading">Vacancies</a>
-                    </li>
-                    <?php wp_nav_menu( array( 
-                        'theme_location' => 'vacancies-links-menu',
-                        'container' => false,
-                        'items_wrap' => '%3$s',
-                    ) ); ?>
+                    <li><a href="#" class="heading">Vacancies</a></li>
+                    <li><a href="#">See all Vacancies</a></li>
+                    <li><a href="#">List your Vacancy</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
             <div class="col-md-2">
                 <ul>
-                    <li><a href="#" class="heading">Contact</a>
-                    </li>
-                    <li><a href="#">Adam Grainger</a>
-                    </li>
-                    <li><a href="#">020 3905 6222</a>
-                    </li>
-                    <li><a href="#">adam@lightsourcepeople.com</a>
-                    </li>
+                    <li><a href="#" class="heading">Contact</a></li>
+                    <li><a href="#">Adam Grainger</a></li>
+                    <li><a href="#">0208 123 456</a></li>
+                    <li><a href="#">adam@lightsourcepeople.com</a></li>
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri() ?>/images/logo_white.svg" class="logo-footer">
+                <img src="images/logo_white.svg" class="logo-footer">
             </div>
         </div>
         <div class="row">
