@@ -36,7 +36,7 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="images/logo_white.svg" class="logo-footer">
+                <img src="<?php echo get_template_directory_uri() ?>/images/logo_white.svg" class="logo-footer">
             </div>
         </div>
         <div class="row">
