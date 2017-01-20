@@ -81,10 +81,6 @@
                             <li><a href="/successful_candidates.html">Clients</a></li>
                             <li>
                                 <a href="/vacancies.html">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                                <ul>
-                                    <li><a href="#">Permanent</a></li>
-                                    <li><a href="#">Permanent</a></li>
-                                </ul>
                             </li>
                             <li><a href="/contract.html">Vacancies</a></li>
                             <li><a href="/contact_us.html">Careers</a></li>
