@@ -8,40 +8,6 @@
  */
 
 get_header(); ?>
-<div class="container-fluid dream-role">
-    <div class="container">
-        <div class="row visible-xs visible-sm">
-            <form>
-                <div class="col-md-12">
-                    My dream role is...
-                </div>
-                <div class="col-md-4">
-                    <input type="text" name="" autocomplete="off" placeholder="Job Role" id="role">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" name="" id="location" autocomplete="off" placeholder="Location">
-                </div>
-                <div class="col-md-4">
-                    <button class="search-btn">Search</button>
-                </div>
-            </form>
-        </div>
-        <div class="row visible-lg">
-            <div class="col-md-12">
-                <form>
-                    My dream role is...
-                    <input type="text" name="" autocomplete="off" placeholder="Job Role" id="role"> in
-                    <input type="text" name="" id="location" autocomplete="off" placeholder="Location">
-                    <button class="search-btn">Search</button>
-                </form>
-            </div>
-        </div>
-
-    </div>
-</div>
-<!--/dream role-->
-
-
 <div class="contract">
     <div class="container-fluid seeking">
         <div class="container lsp-divider">
@@ -66,23 +32,23 @@ get_header(); ?>
                 <div class="col-md-5">
                     <h1>What's on Offer</h1>
                     <ul>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true"></i> lorem ipsum dolor sit amet,</a>
+                        <li><a href="#"> lorem ipsum dolor sit amet,</a>
                         </li>
                     </ul>
                 </div>

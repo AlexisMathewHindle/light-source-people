@@ -99,7 +99,7 @@
 
 <?php if(!is_front_page()): ?>
 <div class="container-fluid vacancy-search">
-    <form action="<?php echo get_permalink(56); ?>" method="get">    
+    <form action="<?php echo get_permalink(32); ?>" method="get">    
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
