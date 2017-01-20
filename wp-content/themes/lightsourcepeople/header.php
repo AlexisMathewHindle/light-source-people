@@ -36,7 +36,7 @@
         <ul>
             <li><a href="/client_successful_candidates.html">Clientssss</a></li>
             <li><a href="/successful_candidates.html">Candidates</a></li>
-            <li><a href="/vacancies.html">Vacancies</a></li>
+            <li><a href="<?php echo get_permalink(32); ?>">Vacancies</a></li>
             <li><a href="/contract.html">Careers</a></li>
             <li><a href="/contact_us.html">Contact</a></li>
             <li><a href="/about.html">About</a></li>
@@ -82,7 +82,7 @@
                             <li>
                                 <a href="/vacancies.html">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             </li>
-                            <li><a href="/contract.html">Vacancies</a></li>
+                            <li><a href="<?php echo get_permalink(32); ?>">Vacancies</a></li>
                             <li><a href="/contact_us.html">Careers</a></li>
                             <li><a href="/about.html">Contact</a></li>
                         </ul>                                              
