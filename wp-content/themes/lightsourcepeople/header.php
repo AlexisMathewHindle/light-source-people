@@ -79,8 +79,12 @@
                             <li><a href="/"><img src="<?php echo get_template_directory_uri() ?>/images/logo.svg" class="logo"></li>
                             <li><a href="<?php echo get_permalink(38); ?>">About</a></li>
                             <li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>
-                            <li>
+                            <li id="candidates">
                                 <a href="<?php echo get_permalink(30); ?>">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="<?php echo get_permalink(57); ?>">Permanent</a></li>
+                                    <li><a href="<?php echo get_permalink(55); ?>">Contract</a></li>
+                                </ul>
                             </li>
                             <li><a href="<?php echo get_permalink(32); ?>">Vacancies</a></li>
                             <li><a href="<?php echo get_permalink(34); ?>">Careers</a></li>

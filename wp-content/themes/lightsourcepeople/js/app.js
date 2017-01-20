@@ -224,4 +224,16 @@ $(function() {
     initMap();
   }
 
+
+  $("#candidates").mouseenter(function (e) {
+    e.preventDefault();
+    $('.sub-menu').fadeIn();
+  });
+
+  $("#candidates").mouseleave(function (e) {
+    e.preventDefault();
+    $('.sub-menu').hide();
+  });
+
+
 });
