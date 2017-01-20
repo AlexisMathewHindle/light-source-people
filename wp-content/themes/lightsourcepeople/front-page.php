@@ -70,7 +70,7 @@ get_header(); ?>
                         Welcome to <span>Light Source People</span>
                     </div>
                     <div class="subheading">
-                        The Engery Recruitment Sepcialists
+                        The Energy Recruitment Sepcialists
                     </div>
                     <div class="content">
         Light Source People’ is a specialist recruiter dedicated to servicing the international energy industry.  We cover permanent and contract positions across the full spectrum of power generation sources.  With 20 years’ experience, gleaned servicing clients and candidates the world over we understand the value of identifying and sourcing market leading talent and providing them with the right opportunity in which to thrive.  Here at Light Source People the emphasis is on listening and truly understanding the needs of our customers.  Only then can we ensure we provide market leading service levels that make a real difference to our customers.
