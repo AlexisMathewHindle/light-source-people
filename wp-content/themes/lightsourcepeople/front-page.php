@@ -11,7 +11,7 @@ get_header(); ?>
 
     <div class="container-fluid hero">
         <div class="tagline">
-            The Energy Recruitment Sepcialists
+            The Energy Talent Solutions
         </div>
         <div class="contact-tel-main">
             020 3905 6222
@@ -73,7 +73,8 @@ get_header(); ?>
                         The Energy Recruitment Sepcialists
                     </div>
                     <div class="content">
-        Light Source People’ is a specialist recruiter dedicated to servicing the international energy industry.  We cover permanent and contract positions across the full spectrum of power generation sources.  With 20 years’ experience, gleaned servicing clients and candidates the world over we understand the value of identifying and sourcing market leading talent and providing them with the right opportunity in which to thrive.  Here at Light Source People the emphasis is on listening and truly understanding the needs of our customers.  Only then can we ensure we provide market leading service levels that make a real difference to our customers.
+        The energy industry is a highly competitive one, and often requires innovative solutions to challenges that have never been faced before.  Light Source People aims to connect market leading talent with innovative market leading projects, so that together those challenges can be met.
+        We adopt a partnership approach in connecting companies and talent.  Put simply, the emphasis is on listening, understanding and quality.  Only when we truly understand the challenge our customer faces can we deliver the right talent solution.  From single requirements to complete project teams, Light Source People has the industry knowledge, network and experience to deliver innovative market leading talent solutions.
                     </div>
                 </div>
             </div>

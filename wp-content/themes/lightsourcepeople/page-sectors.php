@@ -46,18 +46,7 @@ Whether it be wind, solar, hydro, wave, tidal, biomass, onshore, offshore in Cop
                 </div>
                 
                 <div class="copy">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    The global shift to a clean energy economy keeps accelerating, creating millions of green jobs for workers around the world, and showing that decarbonisation and economic growth can go hand in hand.  There are currently over 8 million people worldwide working within the renewable energy sector, up from just 3 million in 2004.  As improvements in technology and lessons learned drive down the cost of renewable energy, this staggering rate of growth looks set to continue for decades to come.
                 </div>
 
                 </div>

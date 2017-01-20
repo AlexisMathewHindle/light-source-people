@@ -45,7 +45,7 @@
                         Contact for this role:
                     </div>
                     <div class="copy">
-                        <p>0208 123 4567
+                        <p>020 3905 6222
                             <br />
                             <a href="#" class="mailto">
                                 <?php echo $job->company_email; ?>

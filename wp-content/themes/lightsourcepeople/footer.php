@@ -16,23 +16,23 @@
                     <li><a href="#" class="heading">Quick Links</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Work With Us</a></li>
+                    <li><a href="<?php echo bloginfo('url');?>/work-with-us">Work With Us</a></li>
                 </ul>
             </div>
             <div class="col-md-2">
                 <ul>
                     <li><a href="#" class="heading">Vacancies</a></li>
-                    <li><a href="#">See all Vacancies</a></li>
-                    <li><a href="#">List your Vacancy</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="<?php echo bloginfo('url') ?>/vacancies">See all Vacancies</a></li>
+                    <li><a href="<?php echo bloginfo('url') ?>/clients">List your Vacancy</a></li>
+                    <li><a href="<?php echo bloginfo('url') ?>/contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="col-md-2">
                 <ul>
                     <li><a href="#" class="heading">Contact</a></li>
                     <li><a href="#">Adam Grainger</a></li>
-                    <li><a href="#">0208 123 456</a></li>
-                    <li><a href="#">adam@lightsourcepeople.com</a></li>
+                    <li><a href="#">020 3905 6222</a></li>
+                    <li><a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a></li>
                 </ul>
             </div>
             <div class="col-md-6">
@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="author">
-                    Website by <a href="#">Tjarks and Tjarks</a>
+                    Website by <a href="http://www.tjarksandtjarks.com/" target="_blank">Tjarks and Tjarks</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                     <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
                     <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
                     <span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
-                    <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                    <!-- <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span> -->
                 </div>
             </div>
         </div>

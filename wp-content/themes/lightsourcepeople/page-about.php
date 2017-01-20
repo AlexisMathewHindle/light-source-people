@@ -49,7 +49,8 @@ get_header(); ?>
                         TESTIMONIAL
                     </div>
                     <div class="heading">
-                        Geni Design Limited
+                        Commercial Director<br>
+                        Renewable Energy Industry
                     </div>
 
 
@@ -63,7 +64,7 @@ get_header(); ?>
                     </div>
 
                     <div class="quote">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Light Source People are an excellent recruitment partner, with an approach which is not too pushy, but well-researched and thoughtful. They have a very good knowledge of the renewables sector, across a number of different fields and businesses, which means their placements are an excellent fit, both in the skill and culture match required – Commercial Director, Renewable Energy Industry</p>
                     </div>
 
 
