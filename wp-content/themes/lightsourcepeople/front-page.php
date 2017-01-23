@@ -174,8 +174,8 @@ get_header(); ?>
 
                     <?php
                     $rss = new DOMDocument();
-                    $rss_details = simplexml_load_file('http://feeds.bbci.co.uk/news/technology/rss.xml');
-                    $rss->load('http://feeds.bbci.co.uk/news/technology/rss.xml');
+                    $rss_details = simplexml_load_file('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
+                    $rss->load('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
                     $feed = array();
                     foreach ($rss->getElementsByTagName('item') as $node) {
                         $item = array ( 
