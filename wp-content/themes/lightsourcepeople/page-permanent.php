@@ -50,7 +50,7 @@ Midwestern wind farms by the University of Wisconsin.
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/permanent.png" id="permanent" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/permanent_v1.png" id="permanent" class="img-responsive">
                 </div>
             </div>
         </div>
