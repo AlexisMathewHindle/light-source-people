@@ -116,11 +116,16 @@
   color: #398f14 !important
 }
 
-.signup .wpcf7-mail-sent-ok, .signup .wpcf7-validation-errors {
+.signup .wpcf7-mail-sent-ok, .signup .wpcf7-validation-errors, .signup .wpcf7-mail-sent-ng  {
   max-width: 80%;
   margin: 0 auto !important;
   border: none !important;
   padding-left: 0 !important;
+}
+
+.signup .wpcf7-mail-sent-ng {
+  border: none !important;
+  color: rgb(255, 0, 0);
 }
 
 input[type=file] {
