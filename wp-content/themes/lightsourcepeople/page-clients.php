@@ -196,7 +196,7 @@ We also offer payroll, mobilisation and visa solutions. Whether you need a compl
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                Contact us - <a href="#">mail@lighgtsourcepeople.com</a>
+                Contact us - <a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a>
             </div>
         </div>
     </div>

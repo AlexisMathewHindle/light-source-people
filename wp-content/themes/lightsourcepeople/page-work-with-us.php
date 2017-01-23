@@ -95,7 +95,7 @@ If you want to be a part of our dynamic growing company and add value to its cus
                 <div class="doit">
                     <img src="<?php echo get_template_directory_uri() ?>/images/doit.png" alt="">
                 </div>
-                Contact- <a href="mailto:hello@lighgtsourcepeople.com">hello@lighgtsourcepeople.com</a>
+                Contact- <a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a>
             </div>
         </div>
     </div>

@@ -40,9 +40,9 @@ Whether it be wind, solar, hydro, wave, tidal, biomass, onshore, offshore in Cop
             <div class="row">
                 <div class="col-md-6">
                 <h1>Leading Renewable Recruitment</h1>
-                <div class="summary">
+                <!-- <div class="summary">
                     Statistics
-                </div>
+                </div> -->
                 
                 <div class="copy">
                     The global shift to a clean energy economy keeps accelerating, creating millions of green jobs for workers around the world, and showing that decarbonisation and economic growth can go hand in hand.  There are currently over 8 million people worldwide working within the renewable energy sector, up from just 3 million in 2004.  As improvements in technology and lessons learned drive down the cost of renewable energy, this staggering rate of growth looks set to continue for decades to come.
