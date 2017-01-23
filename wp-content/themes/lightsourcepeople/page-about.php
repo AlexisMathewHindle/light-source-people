@@ -89,7 +89,7 @@ get_header(); ?>
                         <div class="copy">
                             Send us a short email with a copy of your CV and we will be in touch!
                         </div>
-                        <a href="<?php echo get_permalink(60); ?>" class="testimonial-btn">Contact Us</a>
+                        <a href="<?php echo get_permalink(36); ?>" class="testimonial-btn">Contact Us</a>
                     </div>
                     <div class="rss-feed">
                         <div class="heading">
