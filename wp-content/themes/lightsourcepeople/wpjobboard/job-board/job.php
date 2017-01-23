@@ -30,7 +30,6 @@
 </div>
 
 
-
 <div class="container-fluid job-description">
   <div class="container">
     <div class="row">

@@ -325,6 +325,9 @@ h2 {
   .job-type-select {
     height: 42px;
   }
+  select {
+    width: 100%;
+  }
   input {
     width: 100%;
     padding: 10px;
@@ -433,6 +436,9 @@ h2 {
     .copy {
       @include lsp-copy();
       color: #ffffff;
+      span {
+        color: $lsp-orange;
+      }
     }
     .timestamp {
       margin-top: 15px;
@@ -468,7 +474,8 @@ h2 {
   margin-top: 50px !important;
 }
 
-#wpjb-upload-file, .wpjb-submit {
+#wpjb-upload-file,
+.wpjb-submit {
   @include border-radius(4px);
   -webkit-transition: opacity 0.5s ease;
   -o-transition: opacity 0.5s ease;
@@ -492,7 +499,7 @@ h2 {
   }
 }
 
-
-.wpjb-fieldset-_trashed, .wpjb-apply-form {
+.wpjb-fieldset-_trashed,
+.wpjb-apply-form {
   display: none;
 }
