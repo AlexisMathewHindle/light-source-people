@@ -8908,7 +8908,7 @@ h2 {
 .contract .seeking {
   padding: 100px 0 50px 0; }
   .contract .seeking ul {
-    color: #4990E2;
+    color: #9B9B9B;
     margin-top: 40px; }
     .contract .seeking ul .fa {
       color: #4990E2; }
@@ -8922,8 +8922,6 @@ h2 {
     width: 300px;
     display: block;
     margin: auto; }
-  .contract .seeking img {
-    padding: 50px; }
 
 .contract .downloads {
   padding: 50px 0 50px 0;
