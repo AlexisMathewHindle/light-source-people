@@ -214,7 +214,7 @@ get_header(); ?>
                 <div class="heading">
                     Current Vacancies
                 </div>
-                <span class="see-vacancies"><a href="<?php echo get_permalink(56) ?>">See Vancancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
+                <span class="see-vacancies"><a href="<?php echo get_permalink(32) ?>">See Vancancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>

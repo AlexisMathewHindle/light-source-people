@@ -32,7 +32,7 @@ get_header(); ?>
                         <div class="content">
                            We take the time to listen to our customers, starting with a blank sheet of paper, keeping an open mind as to what may or may not be needed from a candidate to successfully fill a vacancy.  We adopt a consultative approach sharing our knowledge of the sector and the talent that works within it throughout the process.
                         </div>
-                        <a href="#" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        <a href="<?php echo get_permalink(36); ?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ get_header(); ?>
                         <div class="content">
       It is imperative that we understand every facet of the vacancy we are sourcing in which the successful candidate will be engaged.  Only when we have this understanding can we ensure we deliver the right person to meet the needs of the role and contribute to the ongoing success of our customer.
                         </div>
-                        <a href="#" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        <a href="<?php echo get_permalink(36); ?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ get_header(); ?>
                         <div class="content">
 At Light Source People all of our consultants have access to industry leading tools and technology to ensure they generate the very best candidates for your vacancy. In addition to this we are dedicated, determined and tenacious thus ensuring no stone is left un-turned nor any potential candidates slip through the net.  
                         </div>
-                        <a href="#" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        <a href="<?php echo get_permalink(36); ?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@ At Light Source People all of our consultants have access to industry leading to
                         <div class="content">
 Given that Light Source People specialise only in the energy sector our consultants are able to make knowledgable, considered approaches to every relevant candidate identified. Leveraging our undersanding of you, our customer, and your vacancy we can ensure that only the best suited candidates are offered to you.
                         </div>
-                        <a href="#" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        <a href="<?php echo get_permalink(36); ?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
 

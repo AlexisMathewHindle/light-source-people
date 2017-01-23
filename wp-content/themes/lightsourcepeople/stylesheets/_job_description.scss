@@ -3,7 +3,7 @@
 }
 
 .ci-wrapper {
-  background: $lsp-blue;
+  background: #282E33;
   color: #ffffff;
   text-align: center;
   padding: 50px 0 50px 0;
@@ -11,6 +11,7 @@
   @include lsp-copy;
   span {
     font-weight: 700;
+    color: $lsp-orange;
   }
 }
 

@@ -8428,6 +8428,8 @@ h2 {
     width: 100%; }
   .vacancy-search .job-type-select {
     height: 42px; }
+  .vacancy-search select {
+    width: 100%; }
   .vacancy-search input {
     width: 100%;
     padding: 10px;
@@ -8531,6 +8533,8 @@ h2 {
   .clients .rss-feed .copy {
     font-family: Montserrat Light;
     color: #ffffff; }
+    .clients .rss-feed .copy span {
+      color: #F6A623; }
   .clients .rss-feed .timestamp {
     margin-top: 15px;
     font-size: 12px; }
@@ -8555,7 +8559,8 @@ h2 {
 .key-points {
   margin-top: 50px !important; }
 
-#wpjb-upload-file, .wpjb-submit {
+#wpjb-upload-file,
+.wpjb-submit {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -8571,15 +8576,19 @@ h2 {
   border: none;
   text-decoration: none;
   font-family: Montserrat Light; }
-  #wpjb-upload-file span, .wpjb-submit span {
+  #wpjb-upload-file span,
+  .wpjb-submit span {
     color: #ffffff; }
-  #wpjb-upload-file .fa-chevron-right, .wpjb-submit .fa-chevron-right {
+  #wpjb-upload-file .fa-chevron-right,
+  .wpjb-submit .fa-chevron-right {
     margin-left: 5px;
     font-size: 8px; }
-  #wpjb-upload-file:hover, .wpjb-submit:hover {
+  #wpjb-upload-file:hover,
+  .wpjb-submit:hover {
     opacity: 0.6; }
 
-.wpjb-fieldset-_trashed, .wpjb-apply-form {
+.wpjb-fieldset-_trashed,
+.wpjb-apply-form {
   display: none; }
 
 .contact {
@@ -9185,14 +9194,15 @@ h2 {
   height: 372px !important; }
 
 .ci-wrapper {
-  background: #4990E2;
+  background: #282E33;
   color: #ffffff;
   text-align: center;
   padding: 50px 0 50px 0;
   font-size: 24px;
   font-family: Montserrat Light; }
   .ci-wrapper span {
-    font-weight: 700; }
+    font-weight: 700;
+    color: #F6A623; }
 
 .job-description {
   padding: 50px 0 50px 0; }
@@ -9287,6 +9297,8 @@ h2 {
   .about .introduction {
     padding: 50px 0 50px 0;
     text-align: center; }
+    .about .introduction .contact-number {
+      color: #F6A623; }
     .about .introduction .heading {
       font-size: 30px;
       margin-bottom: 30px; }
@@ -9358,6 +9370,8 @@ h2 {
     padding: 15px; }
   .vacancy-search input,
   .vacancy-search button {
+    margin-bottom: 15px; }
+  .vacancy-search select {
     margin-bottom: 15px; } }
 
 @media (max-width: 480px) {
