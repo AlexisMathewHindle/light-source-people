@@ -35,7 +35,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <a href="#" class="apply-btn">Apply for this role</a>
+       <!--  <a href="#" class="apply-btn">Apply for this role</a> -->
         <div class="job-title">
           <?php esc_attr_e($job->job_title) ?>
         </div>
