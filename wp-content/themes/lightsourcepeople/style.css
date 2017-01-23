@@ -8342,6 +8342,7 @@ h2 {
     font-size: 20px; }
 
 .vacancies {
+  padding: 50px 0 50px 0;
   background: #ffffff; }
   .vacancies .item {
     border-top: 1px solid #979797;
@@ -8553,6 +8554,30 @@ h2 {
 
 .key-points {
   margin-top: 50px !important; }
+
+#wpjb-upload-file, .wpjb-submit {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  color: #ffffff;
+  background: #4990E2;
+  padding: 15px;
+  font-size: 14px;
+  border: none;
+  text-decoration: none;
+  font-family: Montserrat Light; }
+  #wpjb-upload-file span, .wpjb-submit span {
+    color: #ffffff; }
+  #wpjb-upload-file .fa-chevron-right, .wpjb-submit .fa-chevron-right {
+    margin-left: 5px;
+    font-size: 8px; }
+  #wpjb-upload-file:hover, .wpjb-submit:hover {
+    opacity: 0.6; }
 
 .contact {
   background: #F3F3F3; }

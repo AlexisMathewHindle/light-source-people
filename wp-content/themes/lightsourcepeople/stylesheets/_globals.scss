@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1200px;  
+  width: 1200px;
 }
 
 body {
@@ -204,7 +204,7 @@ h2 {
   background: #ffffff;
   padding-top: 50px;
   text-align: center;
-  img{
+  img {
     max-width: 70%;
     float: right;
   }
@@ -222,7 +222,7 @@ h2 {
 }
 
 .vacancies {
-  // padding: 50px 0 50px 0;
+  padding: 50px 0 50px 0;
   background: #ffffff;
   .item {
     border-top: 1px solid #979797;
@@ -466,4 +466,28 @@ h2 {
 
 .key-points {
   margin-top: 50px !important;
+}
+
+#wpjb-upload-file, .wpjb-submit {
+  @include border-radius(4px);
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  color: #ffffff;
+  background: $lsp-blue;
+  padding: 15px;
+  font-size: 14px;
+  border: none;
+  text-decoration: none;
+  span {
+    color: #ffffff;
+  }
+  @include lsp-copy();
+  .fa-chevron-right {
+    margin-left: 5px;
+    font-size: 8px;
+  }
+  &:hover {
+    opacity: 0.6;
+  }
 }

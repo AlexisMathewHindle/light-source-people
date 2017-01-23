@@ -23,7 +23,10 @@
  <?php $this->render("job.php") ?>
 
 
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            
 
 
 <div class="wpjb wpjb-job wpjb-page-single">
@@ -98,7 +101,7 @@
                 </fieldset>
                 <?php endforeach; ?>
                 
-                <div class="wpjb-legend"></div>
+                <!-- <div class="wpjb-legend"></div> -->
                 
                 <fieldset>
                     <input type="submit" class="wpjb-submit" id="wpjb_submit" value="<?php _e("Send Application", "wpjobboard") ?>" />
@@ -112,6 +115,21 @@
     
     <?php endif; ?>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
 
 
 
