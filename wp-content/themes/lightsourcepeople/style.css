@@ -8973,6 +8973,8 @@ h2 {
         color: #fff; }
       .contact-us .contact-details #contact-details span #tel {
         color: #F6A623; }
+    .contact-us .contact-details #contact-details span.address {
+      color: rgba(255, 255, 255, 0.6); }
 
 .contact-us .contact-box {
   font-family: Montserrat Light;
