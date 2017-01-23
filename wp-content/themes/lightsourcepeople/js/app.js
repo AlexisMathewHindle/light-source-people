@@ -235,4 +235,8 @@ $(function() {
     $('.sub-menu').hide();
   });
 
+  $('#canidate-btn').click(function () {
+    $('.candidate-menu').toggle();
+  });
+
 });

@@ -38,7 +38,11 @@
             <li><a href="<?php echo get_permalink(38); ?>">About</a></li>
             <li><a href="<?php echo get_permalink(59); ?>">Sectors</a></li>
             <li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>
-            <li><a href="<?php echo get_permalink(30); ?>">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+            <li id="canidate-btn"><a href="<?php echo get_permalink(30); ?>">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+            <ul class="candidate-menu">
+                <li><a href="<?php echo get_permalink(55); ?>">Contract</a></li>
+                <li><a href="<?php echo get_permalink(57); ?>">Permanent</a></li>
+            </ul>
             <li><a href="<?php echo get_permalink(32); ?>">Vacancies</a></li>
             <li><a href="<?php echo get_permalink(50); ?>">Work With Us</a></li>
             <li><a href="<?php echo get_permalink(36); ?>">Contact</a></li>

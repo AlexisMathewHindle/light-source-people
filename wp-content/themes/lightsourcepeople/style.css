@@ -8591,6 +8591,9 @@ h2 {
 .wpjb-apply-form {
   display: none; }
 
+.candidate-menu {
+  display: none; }
+
 .contact {
   background: #F3F3F3; }
   .contact span {
@@ -8905,7 +8908,7 @@ h2 {
 .contract .seeking {
   padding: 100px 0 50px 0; }
   .contract .seeking ul {
-    color: #4990E2;
+    color: #9B9B9B;
     margin-top: 40px; }
     .contract .seeking ul .fa {
       color: #4990E2; }
@@ -8919,8 +8922,6 @@ h2 {
     width: 300px;
     display: block;
     margin: auto; }
-  .contract .seeking img {
-    padding: 50px; }
 
 .contract .downloads {
   padding: 50px 0 50px 0;
@@ -9060,16 +9061,40 @@ h2 {
   .wpcf7-submit:hover {
     background: rgba(255, 255, 255, 0.4) !important; }
 
-.wpcf7-mail-sent-ok, .wpcf7-validation-errors {
+.contact-box .wpcf7-mail-sent-ok, .contact-box .wpcf7-validation-errors {
   max-width: 70%;
   margin: 0 auto !important;
-  border: none !important; }
+  border: none !important;
+  padding-left: 0 !important; }
 
 .wpcf7-validation-errors {
   color: #f7e700 !important; }
 
 .wpcf7-mail-sent-ok {
   color: #398f14 !important; }
+
+.signup .wpcf7-mail-sent-ok, .signup .wpcf7-validation-errors {
+  max-width: 80%;
+  margin: 0 auto !important;
+  border: none !important;
+  padding-left: 0 !important; }
+
+input[type=file] {
+  opacity: 0;
+  margin-top: -44px; }
+
+.send-cv {
+  -webkit-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  text-align: center;
+  border: 1px solid #ffffff !important;
+  padding: 11px !important;
+  display: inline-block;
+  min-width: 100%;
+  background: transparent; }
+  .send-cv:hover {
+    background: rgba(255, 255, 255, 0.4); }
 
 .successful-candidates .sc-top {
   padding: 50px 0 50px 0; }
