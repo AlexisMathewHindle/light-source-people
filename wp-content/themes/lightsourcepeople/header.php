@@ -16,6 +16,7 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">    
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel='shortcut icon' type='image/x-icon' href='<?php echo get_template_directory_uri() ?>/favicon.ico' />
     <?php wp_head(); ?>
 </head>
 <body>
