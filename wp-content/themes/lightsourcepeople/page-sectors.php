@@ -20,8 +20,7 @@ get_header(); ?>
                 <div class="col-md-7">
                     <h1>Renewable Energy</h1>
                     <div class="summary">
-Job functions covered – Commercial, Technicians, Engineering, Project Management, Project Controls, Group Support, C-Level.
-Project phases Development, Construction, Operations and Maintenance
+Light Source People specialises in staffing all phases of renewable energy projects.  From Research and Development, Engineering Design, Construction and through to the ongoing Operation and Maintenance of renewable energy assets, Light Source People has the expertise necessary to be a valued partner in your job search or project.
                     </div>
 
                     <div class="copy">
