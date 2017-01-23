@@ -8579,6 +8579,9 @@ h2 {
   #wpjb-upload-file:hover, .wpjb-submit:hover {
     opacity: 0.6; }
 
+.wpjb-fieldset-_trashed, .wpjb-apply-form {
+  display: none; }
+
 .contact {
   background: #F3F3F3; }
   .contact span {

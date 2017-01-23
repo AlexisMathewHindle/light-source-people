@@ -75,7 +75,7 @@
                 <?php foreach($form->getReordered() as $group): ?>
                 <?php /* @var $group stdClass */ ?> 
                 
-                <?php if($group->title): ?>
+                <?php if($group->title && $group->title != '_trashed' ): ?>
                 <div class="wpjb-legend"><?php esc_html_e($group->title) ?></div>
                 <?php endif; ?>
                 
@@ -101,7 +101,7 @@
                 </fieldset>
                 <?php endforeach; ?>
                 
-                <!-- <div class="wpjb-legend"></div> -->
+                <div class="wpjb-legend"></div>
                 
                 <fieldset>
                     <input type="submit" class="wpjb-submit" id="wpjb_submit" value="<?php _e("Send Application", "wpjobboard") ?>" />
