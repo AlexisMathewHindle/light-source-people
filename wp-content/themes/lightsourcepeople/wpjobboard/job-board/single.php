@@ -23,7 +23,10 @@
  <?php $this->render("job.php") ?>
 
 
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            
 
 
 <div class="wpjb wpjb-job wpjb-page-single">
@@ -72,7 +75,7 @@
                 <?php foreach($form->getReordered() as $group): ?>
                 <?php /* @var $group stdClass */ ?> 
                 
-                <?php if($group->title): ?>
+                <?php if($group->title && $group->title != '_trashed' ): ?>
                 <div class="wpjb-legend"><?php esc_html_e($group->title) ?></div>
                 <?php endif; ?>
                 
@@ -112,6 +115,21 @@
     
     <?php endif; ?>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
 
 
 

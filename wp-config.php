@@ -24,6 +24,8 @@ if ($_SERVER['SERVER_NAME'] == 'lightsourcepeople.com') {
     $dbUser = 'lightsou1_admin';
     $dbPassword = '128c%8F';
     $dbHost = '10.169.0.131';
+    define('WP_HOME','http://lightsourcepeople.com/');
+    define('WP_SITEURL','http://lightsourcepeople.com/');    
 } else {
     $dbName = 'lightsou1_production';
     $dbUser = 'lightsou1_admin';
