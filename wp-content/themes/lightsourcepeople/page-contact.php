@@ -1,5 +1,6 @@
 <?php
 /**
+   Template Name: Contact Page
  * The contact page template file
  *
  * @package WordPress
@@ -17,7 +18,7 @@ get_header(); ?>
     <div class="container-fluid" id="map">
     </div>
     <div class="container-fluid contact-box">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="field-box">
@@ -46,7 +47,8 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <?php echo do_shortcode('[contact-form-7 id="63" title="Contact Form Main"]'); ?>
     </div>
 </div>
 <?php get_footer(); ?>
