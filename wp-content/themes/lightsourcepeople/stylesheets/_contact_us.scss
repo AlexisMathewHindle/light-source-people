@@ -41,6 +41,7 @@
       input {
         display: block;
         width: 100%;
+        float: right;
         @include border-radius(4px);
         padding: 10px;
         outline: none;
@@ -71,7 +72,7 @@
         -o-transition: background 0.5s ease;
         transition: background 0.5s ease;
         text-align: center;
-        border: 1px solid #ffffff;
+        border: 1px solid #ffffff !important;
         padding: 10px;
         margin-top: 10px;
         display: inline-block;
@@ -79,9 +80,38 @@
         width: 130px;
         background: transparent;
         &:hover {
-          background: rgba(255,255,255,0.4);
+          background: rgba(255,255,255,0.4) 
         }
       }
     }
   }
 }
+
+.wpcf7-submit {
+  max-width: 30%;
+  border: 1px solid #ffffff !important;
+  background: transparent !important;
+  color: #fff !important;
+  -webkit-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  width: 130px;
+  &:hover {
+    background: rgba(255,255,255,0.4) !important;
+  }
+}
+
+.wpcf7-mail-sent-ok, .wpcf7-validation-errors {
+  max-width: 70%;
+  margin: 0 auto !important;
+  border: none !important;
+}
+
+.wpcf7-validation-errors {
+  color: #f7e700 !important;
+}
+
+.wpcf7-mail-sent-ok {
+  color: #398f14 !important
+}
+
