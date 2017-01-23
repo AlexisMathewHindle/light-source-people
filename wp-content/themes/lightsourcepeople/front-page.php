@@ -97,7 +97,7 @@ get_header(); ?>
                         <div class="copy">
                             View our client testimonials and see how we have helped our client succeed.
                         </div>
-                        <a href="<?php echo get_permalink(62) ?>" class="testimonial-btn">Testimonials</a>
+                        <a href="<?php echo get_permalink(38) ?>" class="testimonial-btn">Testimonials</a>
                     </div>
 
                     <div class="rss-feed">
@@ -156,7 +156,7 @@ get_header(); ?>
                         <div class="copy">
                             View our client testimonials and see how we have helped our client succeed.
                         </div>
-                        <a href="<?php echo get_permalink(62) ?>" class="testimonial-btn">Testimonials</a>
+                        <a href="<?php echo get_permalink(38) ?>" class="testimonial-btn">Testimonials</a>
                     </div>
                     <div class="rss-feed">
                         <div class="heading">

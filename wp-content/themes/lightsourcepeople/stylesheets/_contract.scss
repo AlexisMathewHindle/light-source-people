@@ -45,8 +45,9 @@
 		}
 		.download-btn {
 			display: inline-block;
+			font-size: 12px;
 			background: #ffffff;
-			width: 190px;
+			width: 155px;
 			margin: 50px auto auto auto;
 			padding: 10px;
 			@include border-radius(4px); 
