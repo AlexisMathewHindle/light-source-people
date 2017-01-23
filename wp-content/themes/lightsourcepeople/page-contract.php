@@ -105,7 +105,7 @@ Midwestern wind farms by the University of Wisconsin.
         </div><!--/current vacancies-->
 
 
-<?php echo do_shortcode("[wpjb_jobs_list]"); ?>
+<?php echo do_shortcode("[wpjb_jobs_list type='5']"); ?>
 
 
 
