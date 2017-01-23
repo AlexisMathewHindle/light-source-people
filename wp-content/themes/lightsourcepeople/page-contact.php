@@ -9,6 +9,11 @@
 
 get_header(); ?>
 <div class="contact-us">
+     <div class="container-fluid contact-details">
+         <div id="contact-details">
+             <span>Contact Us: <a href="mailto: hello@lightsourcepeople.com">hello@lightsourcepeople.com</a> or call <span id="tel">020 3905 6222</span></span>
+         </div>
+     </div> 
     <div class="container-fluid" id="map">
     </div>
     <div class="container-fluid contact-box">

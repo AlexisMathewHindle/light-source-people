@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-2">
                 <ul>
-                    <li><a href="#" class="heading">Quick Links</a></li>
+                    <li class="heading">Quick Links</li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
                     <li><a href="<?php echo bloginfo('url');?>/work-with-us">Work With Us</a></li>
@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-2">
                 <ul>
-                    <li><a href="#" class="heading">Vacancies</a></li>
+                    <li class="heading">Vacancies</li>
                     <li><a href="<?php echo bloginfo('url') ?>/vacancies">See all Vacancies</a></li>
                     <li><a href="<?php echo bloginfo('url') ?>/clients">List your Vacancy</a></li>
                     <li><a href="<?php echo bloginfo('url') ?>/contact">Contact Us</a></li>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-2">
                 <ul>
-                    <li><a href="#" class="heading">Contact</a></li>
+                    <li class="heading">Contact</a></li>
                     <li><a href="#">Adam Grainger</a></li>
                     <li><a href="#">020 3905 6222</a></li>
                     <li><a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a></li>

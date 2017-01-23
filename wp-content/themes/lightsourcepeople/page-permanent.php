@@ -50,7 +50,7 @@ Midwestern wind farms by the University of Wisconsin.
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/contract.png" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/permanent.png" id="permanent" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -76,11 +76,12 @@ Midwestern wind farms by the University of Wisconsin.
 
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.pdf" class="download-btn timesheets" download>Timesheets</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.pdf" class="download-btn timesheets" download>Timesheets Excel</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Timesheets PDF</a>
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
-                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
-                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
-                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>CV Writing Advice</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Expenses PDF</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Expenses Excel</a>
                             </div>                      
                         </div>
                 </div>

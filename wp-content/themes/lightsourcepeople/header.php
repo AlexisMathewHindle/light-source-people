@@ -39,7 +39,7 @@
             <li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>
             <li><a href="<?php echo get_permalink(30); ?>">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
             <li><a href="<?php echo get_permalink(32); ?>">Vacancies</a></li>
-            <li><a href="<?php echo get_permalink(34); ?>">Careers</a></li>
+            <li><a href="<?php echo get_permalink(50); ?>">Work With Us</a></li>
             <li><a href="<?php echo get_permalink(36); ?>">Contact</a></li>
         </ul>
     </div>
@@ -89,7 +89,7 @@
                                 </ul>
                             </li>
                             <li><a href="<?php echo get_permalink(32); ?>">Vacancies</a></li>
-                            <li><a href="<?php echo get_permalink(34); ?>">Careers</a></li>
+                            <li><a href="<?php echo get_permalink(50); ?>">Work With Us</a></li>
                             <li><a href="<?php echo get_permalink(36); ?>">Contact</a></li>
                         </ul>                                              
                     </div><!--/navigation-->

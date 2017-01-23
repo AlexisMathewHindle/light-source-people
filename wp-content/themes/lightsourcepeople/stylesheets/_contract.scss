@@ -21,6 +21,10 @@
 			display: block;
 			margin: auto;
 		}
+
+		img {
+			padding: 50px;
+		}
 	}
 	.downloads {
 		padding: 50px 0 50px 0;
@@ -49,9 +53,9 @@
 			text-decoration: none;
 			color: $lsp-blue;
 		}
-		.timesheets{
-			margin-right: 40px;
-		}
+		// .timesheets{
+		// 	margin-right: 40px;
+		// }
 		.expenses {
 			margin-left: 40px;
 		}

@@ -11,7 +11,7 @@ get_header(); ?>
 
     <div class="container-fluid hero">
         <div class="tagline">
-            The Energy Talent Solutions
+            Energy Talent Solutions
         </div>
         <div class="contact-tel-main">
             020 3905 6222
@@ -70,7 +70,7 @@ get_header(); ?>
                         Welcome to <span>Light Source People</span>
                     </div>
                     <div class="subheading">
-                        The Energy Recruitment Sepcialists
+                        The Energy Recruitment Specialists
                     </div>
                     <div class="content">
         The energy industry is a highly competitive one, and often requires innovative solutions to challenges that have never been faced before.  Light Source People aims to connect market leading talent with innovative market leading projects, so that together those challenges can be met.
@@ -101,7 +101,7 @@ get_header(); ?>
                     </div>
 
                     <div class="rss-feed">
-                        <div class="heading">
+                        <!-- <div class="heading">
                             RSS FEED
                         </div>
                         <div class="title">
@@ -112,7 +112,30 @@ get_header(); ?>
                         </div>
                         <div class="timestamp">
                             December 10 2016
-                        </div>
+                        </div> -->
+                        <?php
+                    $rss = simplexml_load_file('http://feeds.bbci.co.uk/news/technology/rss.xml');
+    
+                    echo '<h1>'. $rss->channel->title . '</h1>';
+    
+                    foreach ($rss->channel->item as $item) {
+                        echo '<h2><a href="'. $item->link .'">' . $item->title . "</a></h2>";
+                        echo "<p>" . $item->pubDate . "</p>";
+                        echo "<p>" . $item->description . "</p>";
+                        
+                        
+                        // we load the attributes into $thumbAttr
+                        // you can either use the namespace prefix
+                        $thumbAttr = $item->children('media', true)->thumbnail->attributes();
+                    
+                        // or preferably the namespace name, read note below for an explanation
+                        $thumbAttr = $item->children('http://search.yahoo.com/mrss/')->thumbnail->attributes();
+                        
+                        echo "<img src=\"".$thumbAttr['url']."\" alt=\"error\">"; 
+                        
+                    } 
+    
+                    ?>
                     </div>
 
 
@@ -139,7 +162,7 @@ get_header(); ?>
                         <div class="heading">
                             RSS FEED
                         </div>
-                        <div class="title">
+                        <!--<div class="title">
                             Australia blocks Chinese firm from stake in electricity grid
                         </div>
                         <div class="copy">
@@ -147,7 +170,36 @@ get_header(); ?>
                         </div>
                         <div class="timestamp">
                             December 10 2016
-                        </div>
+                        </div> -->
+
+                    <?php
+                    $rss = new DOMDocument();
+                    $rss_details = simplexml_load_file('http://feeds.bbci.co.uk/news/technology/rss.xml');
+                    $rss->load('http://feeds.bbci.co.uk/news/technology/rss.xml');
+                    $feed = array();
+                    foreach ($rss->getElementsByTagName('item') as $node) {
+                        $item = array ( 
+                            'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+                            'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+                            'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+                            'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+                            );
+                        array_push($feed, $item);
+                    }
+                    $limit = 1;
+
+                    for($x=0;$x<$limit;$x++) {
+                        $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
+                        $link = $feed[$x]['link'];
+                        $description = $feed[$x]['desc'];
+                        $date = date('l F d, Y', strtotime($feed[$x]['date']));
+
+                         echo '<div class="title"><a href="'. $link .'">' . $title . "</a></div>";
+                        echo '<div class="copy">' . $description . '</div>';
+                        echo '<div class="timestamp">' . $date . '</div>';
+
+                    }
+                ?>
                     </div>
                 </div>
             </div>

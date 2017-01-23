@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1200px;
+  width: 1200px;  
 }
 
 body {
@@ -127,6 +127,10 @@ h2 {
     li {
       font-size: 12px;
     }
+    .heading {
+      color: #fff;
+      margin-bottom: 15px;
+    }
   }
   a {
     display: block;
@@ -200,6 +204,14 @@ h2 {
   background: #ffffff;
   padding-top: 50px;
   text-align: center;
+  img{
+    max-width: 70%;
+    float: right;
+  }
+  .vacancies-title {
+    max-width: 40%;
+    padding: 50px 0;
+  }
   .heading {
     font-size: 34px;
   }
@@ -210,7 +222,7 @@ h2 {
 }
 
 .vacancies {
-  padding: 50px 0 50px 0;
+  // padding: 50px 0 50px 0;
   background: #ffffff;
   .item {
     border-top: 1px solid #979797;

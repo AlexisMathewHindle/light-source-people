@@ -100,7 +100,7 @@ Given that Light Source People specialise only in the energy sector our consulta
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <!-- <img src="<?php echo get_template_directory_uri() ?>/images/sc_photo.png" class="img-responsive"> -->
+                        <img src="<?php echo get_template_directory_uri() ?>/images/clients.png" class="img-responsive">
                     </div>
                     <div class="col-md-7">
                         <h1>Why work with us?</h1>

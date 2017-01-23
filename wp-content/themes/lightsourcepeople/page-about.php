@@ -12,6 +12,7 @@ get_header(); ?>
     <div class="container-fluid introduction">
         <div class="container">
             <div class="row">
+                <img src="<?php echo get_template_directory_uri();?>/images/about_us_illustration.png" class="img-responsive">
                 <div class="col-md-12">
                     <div class="heading">
                         Introduction to Light Source People …

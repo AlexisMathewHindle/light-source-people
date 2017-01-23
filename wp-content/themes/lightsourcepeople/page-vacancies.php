@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The vacancies page template file
  *
@@ -10,11 +10,16 @@
 get_header(); ?>
 <div class="container-fluid current-vacancies extra-padding">
     <div class="container">
-        <div class="col-md-12">
-            <div class="heading">
-                Vacancies
-            </div>
-            <span class="call-us">Call us on: 020 3905 6222</span>
+    	<div class="col-md-5">
+    		<img src="<?php echo get_template_directory_uri();?>/images/vacancies.png" class="img-responsive"alt="">
+    	</div>
+        <div class="col-md-7">
+        	<div class="vacancies-title">
+        		<div class="heading">
+	                Vacancies
+	            </div>
+	            <span class="call-us">Call us on: 020 3905 6222</span>
+        	</div>
         </div>
     </div>
 </div>
