@@ -105,10 +105,7 @@ Given that Light Source People specialise only in the energy sector our consulta
                     <div class="col-md-7">
                         <h1>Why work with us?</h1>
                         <div class="summary">
-                                Wind power farms generate between 17 and 39 times as much 
-                                power as they consume, as compared to 16 times for nuclear 
-                                plants and 11 times for coal plants, according to a study of 
-                                Midwestern wind farms by the University of Wisconsin.
+                                Here at Light Source People we adopt a simple yet effective methodology to ensure client delight throughout the recruitment process.  We offer both a contingency and retained search service, depending on the needs of the customer and the post to be filled.
                         </div>
                         <div class="copy">
                           
@@ -122,7 +119,7 @@ Given that Light Source People specialise only in the energy sector our consulta
                         <div class="copy">
 Here at Light Source People we adopt a simple yet effective methodology to ensure client delight throughout the recruitment process.  We offer both a contingency and retained search service, depending on the needs of the customer and the post to be filled.
                         </div>
-
+                        <div class="break"></div>
                         <div class="copy">
 From a single vacancy to mass recruitment campaign Light Source People are your trusted partner to deliver the talent your business requires. Our consultants have the experience necessary to carry out competency based interviews to select the outstanding applicants.
                         </div>
