@@ -123,6 +123,10 @@ Given that Light Source People specialise only in the energy sector our consulta
 Here at Light Source People we adopt a simple yet effective methodology to ensure client delight throughout the recruitment process.  We offer both a contingency and retained search service, depending on the needs of the customer and the post to be filled.
                         </div>
 
+                        <div class="copy">
+From a single vacancy to mass recruitment campaign Light Source People are your trusted partner to deliver the talent your business requires. Our consultants have the experience necessary to carry out competency based interviews to select the outstanding applicants.
+                        </div>
+
                         <div class="hr"></div>
 
 
