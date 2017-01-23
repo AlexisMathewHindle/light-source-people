@@ -37,7 +37,7 @@ get_header(); ?>
     <div class="container-fluid signup">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <form id="signup-form">
                         <div class="col-md-3 col-md-offset-1">
                             <input type="text" name="" autocomplete="off" placeholder="Email Address">
@@ -55,7 +55,8 @@ get_header(); ?>
                     <div class="copy">
                         *Sign up to our mailing list to get updates and alerts on new vacancies
                     </div>
-                </div>
+                </div> -->
+                <?php echo do_shortcode('[contact-form-7 id="65" title="File Upload - Homepage"]');?>
             </div>
         </div>
     </div>
@@ -114,28 +115,33 @@ get_header(); ?>
                             December 10 2016
                         </div> -->
                         <?php
-                    $rss = simplexml_load_file('http://feeds.bbci.co.uk/news/technology/rss.xml');
-    
-                    echo '<h1>'. $rss->channel->title . '</h1>';
-    
-                    foreach ($rss->channel->item as $item) {
-                        echo '<h2><a href="'. $item->link .'">' . $item->title . "</a></h2>";
-                        echo "<p>" . $item->pubDate . "</p>";
-                        echo "<p>" . $item->description . "</p>";
-                        
-                        
-                        // we load the attributes into $thumbAttr
-                        // you can either use the namespace prefix
-                        $thumbAttr = $item->children('media', true)->thumbnail->attributes();
-                    
-                        // or preferably the namespace name, read note below for an explanation
-                        $thumbAttr = $item->children('http://search.yahoo.com/mrss/')->thumbnail->attributes();
-                        
-                        echo "<img src=\"".$thumbAttr['url']."\" alt=\"error\">"; 
-                        
-                    } 
-    
-                    ?>
+                            $rss = new DOMDocument();
+                            $rss_details = simplexml_load_file('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
+                            $rss->load('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
+                            $feed = array();
+                            foreach ($rss->getElementsByTagName('item') as $node) {
+                                $item = array ( 
+                                    'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+                                    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+                                    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+                                    'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+                                    );
+                                array_push($feed, $item);
+                            }
+                            $limit = 1;
+
+                            for($x=0;$x<$limit;$x++) {
+                                $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
+                                $link = $feed[$x]['link'];
+                                $description = $feed[$x]['desc'];
+                                $date = date('l F d, Y', strtotime($feed[$x]['date']));
+
+                                 echo '<div class="title"><a href="'. $link .'">' . $title . "</a></div>";
+                                echo '<div class="copy">' . $description . '</div>';
+                                echo '<div class="timestamp">' . $date . '</div>';
+
+                            }
+                        ?>
                     </div>
 
 
