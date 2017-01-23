@@ -9323,6 +9323,11 @@ h2 {
       color: #4990E2; }
 
 @media (max-width: 1024px) {
+  .sectors .sector-bottom .content-wrapper {
+    border: none; }
+  .sectors .sector-bottom .content-wrapper-second {
+    padding-left: 0;
+    margin-top: 50px; }
   .home .tagline {
     width: auto; }
   .home .signup form input {

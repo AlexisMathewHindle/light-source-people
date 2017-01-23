@@ -1,6 +1,15 @@
-
-
 @media (max-width: 1024px) {
+  .sectors {
+    .sector-bottom {
+      .content-wrapper {
+        border: none;
+      }
+      .content-wrapper-second {
+        padding-left: 0;
+        margin-top: 50px;
+      }
+    }
+  }
   .home {
     .tagline {
       width: auto;
