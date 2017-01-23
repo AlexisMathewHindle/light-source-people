@@ -115,7 +115,7 @@
                 <div class="col-md-3">
                     <input type="text" name="location" placeholder="Location" autocomplete="off">
                 </div>
-                <div class="col-xs-3">
+                <div class="col-md-3">
                    <select class="form-control job-type-select" name="type">
                       <option value="3">Permanent</option>
                       <option value="5">Contract</option>

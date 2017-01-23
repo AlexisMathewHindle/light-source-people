@@ -8160,7 +8160,7 @@ button.close {
   src: url(fonts/Montserrat-Light.ttf); }
 
 .container {
-  width: 1200px; }
+  max-width: 1200px; }
 
 body {
   font-family: Montserrat;
