@@ -112,18 +112,7 @@ get_header(); ?>
                     </div>
 
                     <div class="rss-feed">
-                        <!-- <div class="heading">
-                            RSS FEED
-                        </div>
-                        <div class="title">
-                            Australia blocks Chinese firm from stake in electricity grid
-                        </div>
-                        <div class="copy">
-                            Australia’s government has preliminarily blocked Chinese and Hong Kong bidders from taking a controlling stake in the country’s largest electricity network, citing worries over national security.
-                        </div>
-                        <div class="timestamp">
-                            December 10 2016
-                        </div> -->
+
                         <?php
                             $rss = new DOMDocument();
                             $rss_details = simplexml_load_file('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
@@ -178,44 +167,35 @@ get_header(); ?>
                         <div class="heading">
                             RSS FEED
                         </div>
-                        <!--<div class="title">
-                            Australia blocks Chinese firm from stake in electricity grid
-                        </div>
-                        <div class="copy">
-                            Australia’s government has preliminarily blocked Chinese and Hong Kong bidders from taking a controlling stake in the country’s largest electricity network, citing worries over national security.
-                        </div>
-                        <div class="timestamp">
-                            December 10 2016
-                        </div> -->
 
-                    <?php
-                    $rss = new DOMDocument();
-                    $rss_details = simplexml_load_file('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
-                    $rss->load('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
-                    $feed = array();
-                    foreach ($rss->getElementsByTagName('item') as $node) {
-                        $item = array ( 
-                            'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-                            'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-                            'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-                            'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
-                            );
-                        array_push($feed, $item);
-                    }
-                    $limit = 1;
+                            <?php
+                            $rss = new DOMDocument();
+                            $rss_details = simplexml_load_file('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
+                            $rss->load('http://feeds.feedburner.com/Renews-RenewableEnergyNews');
+                            $feed = array();
+                            foreach ($rss->getElementsByTagName('item') as $node) {
+                                $item = array ( 
+                                    'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+                                    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+                                    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+                                    'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+                                    );
+                                array_push($feed, $item);
+                            }
+                            $limit = 1;
 
-                    for($x=0;$x<$limit;$x++) {
-                        $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
-                        $link = $feed[$x]['link'];
-                        $description = $feed[$x]['desc'];
-                        $date = date('l F d, Y', strtotime($feed[$x]['date']));
+                            for($x=0;$x<$limit;$x++) {
+                                $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
+                                $link = $feed[$x]['link'];
+                                $description = $feed[$x]['desc'];
+                                $date = date('l F d, Y', strtotime($feed[$x]['date']));
 
-                         echo '<div class="title"><a href="'. $link .'">' . $title . "</a></div>";
-                        echo '<div class="copy">' . $description . '</div>';
-                        echo '<div class="timestamp">' . $date . '</div>';
+                                 echo '<div class="title"><a href="'. $link .'">' . $title . "</a></div>";
+                                echo '<div class="copy">' . $description . '</div>';
+                                echo '<div class="timestamp">' . $date . '</div>';
 
-                    }
-                ?>
+                            }
+                        ?>
                     </div>
                 </div>
             </div>

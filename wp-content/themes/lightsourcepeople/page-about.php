@@ -57,7 +57,7 @@ get_header(); ?>
                         </div>
 
                         <div class="quote">
-                            <p>Light Source People are an excellent recruitment partner, with an approach which is not too pushy, but well-researched and thoughtful. They have a very good knowledge of the renewables sector, across a number of different fields and businesses, which means their placements are an excellent fit, both in the skill and culture match required</p>
+                            <p>Light Source People are an excellent recruitment partner, with an approach which is not too pushy, but well-researched and thoughtful. They have a very good knowledge of the renewables sector, across a number of different fields and businesses, which means their placements are an excellent fit, both in the skill and culture match required.</p>
                         </div>
 
                     </div>
