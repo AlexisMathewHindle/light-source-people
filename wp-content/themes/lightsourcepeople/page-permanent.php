@@ -52,7 +52,7 @@ Midwestern wind farms by the University of Wisconsin.
                     <div class="permanent-content">
                         <p>We all work for a significant chunk of our lives and our careers are a very important to us all.  Changing job can be both an exciting and nerve racking time.  Here at Light Source People we appreciate this.  Our consultants are specialists in the Energy sector, but above all are specialised listeners!  We want to present you with only the most relevant vacancies that you are actually interested in.  We will take the time to listen to what you require in your next role and offer advice (if needed or asked for!) on how likely you are to find this.<p>
                         <div class="break"></div>
-                        <p>We want to be your valued partner in achieving your career goals, not just another recruitment company.  For specialist Energy industry career advice, to find out about our current vacancies or for an informal confidential chat about your next step please call one of our consultants on 020 3456 7890</p>
+                        <p>We want to be your valued partner in achieving your career goals, not just another recruitment company.  For specialist Energy industry career advice, to find out about our current vacancies or for an informal confidential chat about your next step please call one of our consultants on 020 3905 6222</p>
                     </div>
                     
                 </div>
@@ -84,7 +84,7 @@ Midwestern wind farms by the University of Wisconsin.
                         <div class="row">
                             <div class="col-md-12">
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.pdf" class="download-btn timesheets" download>Timesheets</a>
-                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
+                                <!-- <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a> -->
                             </div>                       
                         </div>
                 </div>

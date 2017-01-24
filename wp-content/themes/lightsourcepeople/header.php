@@ -70,7 +70,7 @@
                 <div class="col-md-12">
                     <div class="social-links">
                         <ul>
-                            <li><a href="#" title="facebook" alt="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <li><a href="https://www.facebook.com/lightsourcepeople/" title="facebook" alt="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </li>
                             <li><a href="#" title="twitter" alt="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </li>
