@@ -36,16 +36,16 @@ get_header(); ?>
             <div class="row">
                 <div class="col-md-12">
                     
-                    <div class="title">
+                    <!-- <div class="title">
                         TIMESHEETS &AMP; EXPENSES FORMS
-                    </div>
+                    </div> -->
                         
                         <div class="heading">
-                            Resources
+                            Download Resources
                         </div>
 
                         <div class="subheading">
-                            PDF &amp; Excel Spreadsheets
+                            PDF Document
                         </div>
 
                         <div class="row">
