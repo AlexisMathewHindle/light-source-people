@@ -99,10 +99,10 @@ get_header(); ?>
                             Ever considered a career in recruitment?
                         </div>
                         <div class="copy">
-                            If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on 020 3905 6222 or email
+                            If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <span>020 3905 6222</span> or email
                         </div>
                         <div class="timestamp">
-                            <a href="<?php echo get_permalink(64); ?>">Apply Now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            <a href="<?php echo get_permalink(50); ?>">Apply Now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>

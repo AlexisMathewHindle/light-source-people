@@ -437,6 +437,9 @@ h2 {
     .copy {
       @include lsp-copy();
       color: #ffffff;
+      span {
+        color: $lsp-orange;
+      }
     }
     .timestamp {
       margin-top: 15px;

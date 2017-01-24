@@ -14,8 +14,8 @@
             <div class="col-md-2">
                 <ul>
                     <li class="heading">Quick Links</li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="<?php echo bloginfo('url') ?>/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="<?php echo bloginfo('url') ?>/copyright-trademark/">Terms & Conditions</a></li>
                     <li><a href="<?php echo bloginfo('url');?>/work-with-us">Work With Us</a></li>
                 </ul>
             </div>
@@ -36,7 +36,7 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri() ?>/images/logo_white.svg" class="logo-footer">
+                <a href="<?php bloginfo('url');?>"><img src="<?php echo get_template_directory_uri() ?>/images/logo_white.svg" class="logo-footer"></a>
             </div>
         </div>
         <div class="row">

@@ -8531,6 +8531,8 @@ h2 {
   .clients .rss-feed .copy {
     font-family: Montserrat Light;
     color: #ffffff; }
+    .clients .rss-feed .copy span {
+      color: #eb4f1b; }
   .clients .rss-feed .timestamp {
     margin-top: 15px;
     font-size: 12px; }
@@ -9098,6 +9100,13 @@ input[type=file] {
   .send-cv:hover {
     background: rgba(255, 255, 255, 0.4); }
 
+.privacy-policy {
+  padding: 100px; }
+  .privacy-policy p, .privacy-policy li {
+    color: #9b9b9b; }
+    .privacy-policy p span, .privacy-policy li span {
+      text-transform: uppercase; }
+
 .successful-candidates .sc-top {
   padding: 50px 0 50px 0; }
 
@@ -9128,7 +9137,7 @@ input[type=file] {
       font-size: 18px; }
   .successful-candidates .reasons .step-1 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #92bcee;
     color: #ffffff; }
@@ -9152,7 +9161,7 @@ input[type=file] {
         margin-left: 5px; }
   .successful-candidates .reasons .step-2 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #6ea6e8;
     color: #ffffff; }
@@ -9176,7 +9185,7 @@ input[type=file] {
         margin-left: 5px; }
   .successful-candidates .reasons .step-3 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #4190e2;
     color: #ffffff; }
@@ -9200,7 +9209,7 @@ input[type=file] {
         margin-left: 5px; }
   .successful-candidates .reasons .step-4 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #5487bd;
     color: #ffffff; }
