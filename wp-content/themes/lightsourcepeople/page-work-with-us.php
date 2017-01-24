@@ -73,7 +73,7 @@ get_header(); ?>
 
 
 <p>
-If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <b>020 3905 6222</b> or email <a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a>
+If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <b>020 3905 6222</b> or email <a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a> with a copy of your CV and a short introduction explaining why you would fit the team.
 </p>
 
 
