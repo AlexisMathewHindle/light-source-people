@@ -9137,6 +9137,9 @@ input[type=file] {
     padding-top: 0px;
     height: 475px;
     position: relative; }
+    @media only screen and (max-width: 1199px) {
+      .successful-candidates .reasons .dotted-box {
+        height: 555px; } }
     @media only screen and (max-width: 992px) {
       .successful-candidates .reasons .dotted-box {
         display: none; } }
