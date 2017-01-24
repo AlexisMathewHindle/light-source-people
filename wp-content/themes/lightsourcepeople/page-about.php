@@ -23,7 +23,7 @@ get_header(); ?>
                     </div> -->
 
                     <div class="content">
-‘Light Source People’ is a specialist recruiter dedicated to servicing the international energy industry.  We cover permanent and contract positions across the full spectrum of power generation sources.  With 20 years’ experience, gleaned servicing clients and candidates the world over we understand the value of identifying and sourcing market leading talent and providing them with the right opportunity in which to thrive.  Here at Light Source People the emphasis is on listening and truly understanding the needs of our customers.  Only then can we ensure we provide market leading service levels that make a real difference to our customers.For an informal confidential discussion to find out if we can help you, please call… <span class="contact-number">020 3456 7890</span>
+‘Light Source People’ is a specialist recruiter dedicated to servicing the international energy industry.  We cover permanent and contract positions across the full spectrum of power generation sources.  With 20 years’ experience, gleaned servicing clients and candidates the world over we understand the value of identifying and sourcing market leading talent and providing them with the right opportunity in which to thrive.  Here at Light Source People the emphasis is on listening and truly understanding the needs of our customers.  Only then can we ensure we provide market leading service levels that make a real difference to our customers.For an informal confidential discussion to find out if we can help you, please call… 020 3456 7890
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@ get_header(); ?>
                             Ever considered a career in recruitment?
                         </div>
                         <div class="copy">
-                            If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <span class="contact-number">020 3905 6222</span> or email
+                            If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <span>020 3905 6222</span> or email
                         </div>
                         <div class="timestamp">
                             <a href="<?php echo get_permalink(50); ?>">Apply Now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
