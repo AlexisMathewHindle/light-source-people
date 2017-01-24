@@ -53,7 +53,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="social-footer">
-                    <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                    <span><a href="https://www.facebook.com/lightsourcepeople/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
                     <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
                     <span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
                     <!-- <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span> -->
