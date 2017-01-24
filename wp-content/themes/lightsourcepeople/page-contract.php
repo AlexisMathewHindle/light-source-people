@@ -84,7 +84,7 @@ Midwestern wind farms by the University of Wisconsin.
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.xlsx" class="download-btn timesheets" download>Timesheets Excel</a>
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.pdf" class="download-btn expenses" download>Timesheets PDF</a>
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
-                                <a href="" class="download-btn expenses" download>CV Writing Advice</a>
+                               <!--  <a href="" class="download-btn expenses" download>CV Writing Advice</a> -->
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/expenses_form.pdf" class="download-btn expenses" download>Expenses PDF</a>
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/expenses_form.xlsx" class="download-btn expenses" download>Expenses Excel</a>
                             </div>                     
