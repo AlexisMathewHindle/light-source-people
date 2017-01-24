@@ -54,8 +54,8 @@
             <div class="col-md-4 col-md-offset-4">
                 <div class="social-footer">
                     <span><a href="https://www.facebook.com/lightsourcepeople/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
-                    <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
-                    <span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                    <span><a href="https://twitter.com/lightsourcepeep"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                    <span><a href="https://www.linkedin.com/company/light-source-people"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
                     <!-- <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span> -->
                 </div>
             </div>

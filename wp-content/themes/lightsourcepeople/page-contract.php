@@ -50,7 +50,6 @@ Midwestern wind farms by the University of Wisconsin.
                         <li>We only work within the Energy sector, ensuring you have a specialist not generalist Consultant handling your placement and assignment.</li>
                         <li>Flexible approach, we want to work with you to help and support you in meeting your project deliverables</li>
                         <li>Discounts arranged with specialist Ltd company Insurance and Accountancy providers</li>
-                        <li>Basic PPE provided for all Technicians</li>
                         <li>Broad Client base giving access to a wide variety of contract opportunities</li>
                     </ul>
                 </div>
@@ -83,7 +82,7 @@ Midwestern wind farms by the University of Wisconsin.
                             <div class="col-md-12">
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.xlsx" class="download-btn timesheets" download>Timesheets Excel</a>
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.pdf" class="download-btn expenses" download>Timesheets PDF</a>
-                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.docx" class="download-btn expenses" download>Interview Tips</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.pdf" class="download-btn expenses" download>Interview Tips</a>
                                <!--  <a href="" class="download-btn expenses" download>CV Writing Advice</a> -->
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/expenses_form.pdf" class="download-btn expenses" download>Expenses PDF</a>
                                 <a href="<?php echo get_template_directory_uri() ?>/downloads/expenses_form.xlsx" class="download-btn expenses" download>Expenses Excel</a>

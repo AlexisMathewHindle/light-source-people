@@ -132,7 +132,7 @@ Here at Light Source People we adopt a simple yet effective methodology to ensur
                         </div>
                         <div class="break"></div>
                         <div class="copy">
-From a single vacancy to a mass recruitment campaign, Light Source People are your trusted partner to deliver the talent your business requires. Our consultants have the experience and knowledge necessary to indentify, attract and select the outstanding applicants.
+From a single vacancy to a mass recruitment campaign, Light Source People are your trusted partner to deliver the talent your business requires. Our consultants have the experience and knowledge necessary to indentify, attract and select the outstanding applicants for your vacancy.
                         </div>
 
                         <div class="hr"></div>
