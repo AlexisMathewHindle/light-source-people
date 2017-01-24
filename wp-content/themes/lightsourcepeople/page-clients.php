@@ -9,8 +9,6 @@
 
 get_header(); ?>
 <div class="successful-candidates">
-        
-
 
         <div class="container reasons">
             <div class="row">
@@ -20,89 +18,92 @@ get_header(); ?>
             </div>
 
             <div class="row">
-
-                <div class="col-md-2"></div>
-
-                <div class="col-md-8">
+                <div class="dotted-box">
                     
-                    <div class="dotted-box">
-                        <div class="dotted-text">Open Channel Of Communication</div>
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-8">
+                        
+                        <!-- <div class="dotted-box"> -->
+                            <div class="dotted-text">Open Channel Of Communication</div>
+
+                        <!-- </div> -->
 
                     </div>
-
-                </div>
                 
-                <div class="col-md-3">
-                    <div class="step-1">
-                        <div class="heading">
-                            STEP ONE
+                    <div class="col-md-3">
+                        <div class="step-1">
+                            <div class="heading">
+                                STEP ONE
+                            </div>
+                            <div class="title">
+                                Listen
+                            </div>
+                            <div class="content" style="margin-bottom: 51px;">
+                               We take the time to listen to our customers, starting with a blank sheet of paper, keeping an open mind as to what may or may not be needed from a candidate to successfully fill a vacancy.  We adopt a consultative approach sharing our knowledge of the sector and the talent that works within it throughout the process.
+                            </div>
+                            <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                         </div>
-                        <div class="title">
-                            Listen
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="step-2">
+                            <div class="heading">
+                                STEP TWO
+                            </div>
+                            <div class="title">
+                                Understand
+                            </div>
+                            <div class="content">
+          It is imperative that we understand every facet of the vacancy we are sourcing in which the successful candidate will be engaged.  Only when we have this understanding can we ensure we deliver the right person to meet the needs of the role and contribute to the ongoing success of our customer.
+                            </div>
+                            <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                         </div>
-                        <div class="content" style="margin-bottom: 51px;">
-                           We take the time to listen to our customers, starting with a blank sheet of paper, keeping an open mind as to what may or may not be needed from a candidate to successfully fill a vacancy.  We adopt a consultative approach sharing our knowledge of the sector and the talent that works within it throughout the process.
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="step-3">
+                            <div class="heading">
+                                STEP THREE
+                            </div>
+                            <div class="title">
+                                Search
+                            </div>
+                            <div class="content">
+    At Light Source People all of our consultants have access to industry leading tools and technology to ensure they generate the very best candidates for your vacancy. In addition to this we are dedicated, determined and tenacious thus ensuring no stone is left un-turne, nor any potential candidate slips through the net.  
+                            </div>
+                            <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                         </div>
-                        <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="step-4">
+                            <div class="heading">
+                                STEP FOUR
+                            </div>
+                            <div class="title">
+                                Deliver
+                            </div>
+                            <div class="content">
+    Given that Light Source People specialise only in the energy sector our consultants are able to make knowledgable, considered approaches to every relevant candidate identified. Leveraging our undersanding of you, our customer, and your vacancy we can ensure that only the best suited candidates are presented to you.
+                            </div>
+                            <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
                     </div>
                 </div>
 
-
-                <div class="col-md-3">
-                    <div class="step-2">
-                        <div class="heading">
-                            STEP TWO
-                        </div>
-                        <div class="title">
-                            Understand
-                        </div>
-                        <div class="content">
-      It is imperative that we understand every facet of the vacancy we are sourcing in which the successful candidate will be engaged.  Only when we have this understanding can we ensure we deliver the right person to meet the needs of the role and contribute to the ongoing success of our customer.
-                        </div>
-                        <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-
-                <div class="col-md-3">
-                    <div class="step-3">
-                        <div class="heading">
-                            STEP THREE
-                        </div>
-                        <div class="title">
-                            Search
-                        </div>
-                        <div class="content">
-At Light Source People all of our consultants have access to industry leading tools and technology to ensure they generate the very best candidates for your vacancy. In addition to this we are dedicated, determined and tenacious thus ensuring no stone is left un-turne, nor any potential candidate slips through the net.  
-                        </div>
-                        <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-
-                <div class="col-md-3">
-                    <div class="step-4">
-                        <div class="heading">
-                            STEP FOUR
-                        </div>
-                        <div class="title">
-                            Deliver
-                        </div>
-                        <div class="content">
-Given that Light Source People specialise only in the energy sector our consultants are able to make knowledgable, considered approaches to every relevant candidate identified. Leveraging our undersanding of you, our customer, and your vacancy we can ensure that only the best suited candidates are presented to you.
-                        </div>
-                        <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
 
 
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-12">
                     <div class="hr"></div>
                 </div>
-            </div>
+            </div> -->
         </div><!--/reasons-->
 
 

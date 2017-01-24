@@ -51,7 +51,8 @@ get_header(); ?>
                         <div class="row">
                             <div class="col-md-12">
                                 <!-- <a href="<?php echo get_template_directory_uri() ?>/downloads/timesheet.pdf" class="download-btn timesheets" download>Timesheets</a> -->
-                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.pdf" class="download-btn expenses" download>Interview Tips</a>
+                                <a href="<?php echo get_template_directory_uri() ?>/downloads/interview.pdf" class="download-btn" download>Interview Tips</a>
+                                <!-- remove expenses from above class -->
                             </div>                       
                         </div>
                 </div>
