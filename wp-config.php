@@ -17,11 +17,9 @@
  *
  * @package WordPress
  */
-echo $_SERVER['SERVER_NAME'];
-
 
 /** Local development credentials */
-if ($_SERVER['SERVER_NAME'] == 'lightsourcepeople.com') {
+if ($_SERVER['SERVER_NAME'] == 'lightsourcepeople.com' || $_SERVER['SERVER_NAME'] == 'www.lightsourcepeople.com') {
     $dbName = 'lightsou1_production';
     $dbUser = 'lightsou1_admin';
     $dbPassword = '128c%8F';
