@@ -236,7 +236,7 @@ $(function() {
   });
 
   $('#canidate-btn').click(function () {
-    $('.candidate-menu').toggle();
+    $('.candidate-menu').slideToggle();
   });
 
 });
