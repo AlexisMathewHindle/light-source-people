@@ -73,7 +73,7 @@ get_header(); ?>
                             Search
                         </div>
                         <div class="content">
-At Light Source People all of our consultants have access to industry leading tools and technology to ensure they generate the very best candidates for your vacancy. In addition to this we are dedicated, determined and tenacious thus ensuring no stone is left un-turned nor any potential candidates slip through the net.  
+At Light Source People all of our consultants have access to industry leading tools and technology to ensure they generate the very best candidates for your vacancy. In addition to this we are dedicated, determined and tenacious thus ensuring no stone is left un-turne, nor any potential candidate slips through the net.  
                         </div>
                         <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     </div>
@@ -89,7 +89,7 @@ At Light Source People all of our consultants have access to industry leading to
                             Deliver
                         </div>
                         <div class="content">
-Given that Light Source People specialise only in the energy sector our consultants are able to make knowledgable, considered approaches to every relevant candidate identified. Leveraging our undersanding of you, our customer, and your vacancy we can ensure that only the best suited candidates are offered to you.
+Given that Light Source People specialise only in the energy sector our consultants are able to make knowledgable, considered approaches to every relevant candidate identified. Leveraging our undersanding of you, our customer, and your vacancy we can ensure that only the best suited candidates are presented to you.
                         </div>
                         <a href="<?php echo get_permalink(36);?>" class="apply">Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     </div>
@@ -114,7 +114,7 @@ Given that Light Source People specialise only in the energy sector our consulta
                         <img src="<?php echo get_template_directory_uri() ?>/images/clients.png" class="img-responsive">
                     </div>
                     <div class="col-md-7">
-                        <h1>Why work with us?</h1>
+                        <!-- <h1>Why work with us?</h1>
                         <div class="summary">
                                 Here at Light Source People we adopt a simple yet effective methodology to ensure client delight throughout the recruitment process.  We offer both a contingency and retained search service, depending on the needs of the customer and the post to be filled.
                         </div>
@@ -123,7 +123,7 @@ Given that Light Source People specialise only in the energy sector our consulta
                         </div>
                             
 
-                        <div class="hr"></div>
+                        <div class="hr"></div> -->
 
                         <h2>Permanent Recruitment</h2>
 
@@ -132,7 +132,7 @@ Here at Light Source People we adopt a simple yet effective methodology to ensur
                         </div>
                         <div class="break"></div>
                         <div class="copy">
-From a single vacancy to mass recruitment campaign Light Source People are your trusted partner to deliver the talent your business requires. Our consultants have the experience necessary to carry out competency based interviews to select the outstanding applicants.
+From a single vacancy to a mass recruitment campaign, Light Source People are your trusted partner to deliver the talent your business requires. Our consultants have the experience and knowledge necessary to indentify, attract and select the outstanding applicants.
                         </div>
 
                         <div class="hr"></div>
