@@ -9,7 +9,17 @@
 get_header(); ?>
 <div class="home">
 
-    <div class="container-fluid hero">
+    <?php 
+    // SCRIPT TO GENERATE RANDOM IMAGES  //
+    $mypictures=array("hero_bg.jpg","hero_bg_2.jpg","hero_bg_3.jpg","hero_bg_4.jpg");
+
+    $i = rand(0, count($mypictures)-1); 
+
+    $selectedBg = "$mypictures[$i]";
+
+    ?>
+
+    <div class="container-fluid hero" style="background-image:url('<?php echo get_template_directory_uri() .'/images/'. $selectedBg; ?>');">
         <div class="tagline">
             Energy Talent Solutions
         </div>
