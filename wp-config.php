@@ -17,6 +17,8 @@
  *
  * @package WordPress
  */
+echo $_SERVER['SERVER_NAME'];
+
 
 /** Local development credentials */
 if ($_SERVER['SERVER_NAME'] == 'lightsourcepeople.com') {
