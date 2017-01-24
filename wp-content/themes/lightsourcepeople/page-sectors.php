@@ -25,7 +25,7 @@ Light Source People specialises in staffing all phases of renewable energy proje
 
                     <div class="copy">
                         
-Whether it be wind, solar, hydro, wave, tidal, biomass, onshore, offshore in Copenhagen or Shanghai, Light Source People truly understands the renewable sector and is excited to be a part of the future of energy generation.  For the past decade, our experienced team have been servicing this growing sector in various locations all over the world.  We understand the technicalities and difficulties employers and candidates face in delivering renewable energy projects and the importance of having the right team and recruitment partner in place to meet the challenges faced.
+Whether it be wind, solar, hydro, wave, tidal, biomass, onshore or offshore. In Copenhagen or Shanghai, Light Source People truly understands the renewable sector and is excited to be a part of the future of energy generation.  For the past decade, our experienced team have been servicing this growing sector in various locations all over the world.  We understand the technicalities and difficulties employers and candidates face in delivering renewable energy projects and the importance of having the right team and recruitment partner in place to meet the challenges faced.
                     </div>
 
                 </div>
@@ -90,7 +90,9 @@ Whether it be wind, solar, hydro, wave, tidal, biomass, onshore, offshore in Cop
     Our specialist renewable energy consultants want to be your valued partner in identifying your next contract position or career challenge.  Here at Light Source People the emphasis is on listening and understanding the needs of our customers to ensure that we only present you with the most relevant job opportunities to further you career in the renewable energy industry.
                             </div>
 
-                            <a style="margin-top: 45px;" href="<?php echo get_permalink(55);?>" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            <a style="margin-top: 45px; margin-right: 40px;" href="<?php echo get_permalink(55);?>" class="more-btn">Read More - Contract <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
+                            <a style="margin-top: 45px;" href="<?php echo get_permalink(57);?>" class="more-btn">Read More - Permanent <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 
 
                     </div>
