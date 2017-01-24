@@ -71,7 +71,7 @@ Midwestern wind farms by the University of Wisconsin.
                     </div>
                         
                         <div class="heading">
-                            Resources
+                            Download Resources
                         </div>
 
                         <div class="subheading">
