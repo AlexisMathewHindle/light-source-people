@@ -35,10 +35,14 @@ Midwestern wind farms by the University of Wisconsin.
             </div>
         </div> -->
 
-        <div class="container lsp-divider extra-padding-top">
+        <div class="container lsp-divider">
+
             <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Why work with Light Source People?</h1>
+                </div>
                 <div class="col-md-6">
-                    <h1>Why work with Light Source People?</h1>
+                    
                     <ul>
                         <li>Weekly / bi weekly / monthly payment options to suit you or your business</li>
                         <li>Free advice on choosing the right set up for you when setting out in to the world of contracting</a></li>
@@ -47,10 +51,11 @@ Midwestern wind farms by the University of Wisconsin.
                         <li>Flexible approach, we want to work with you to help and support you in meeting your project deliverables</li>
                         <li>Discounts arranged with specialist Ltd company Insurance and Accountancy providers</li>
                         <li>Basic PPE provided for all Technicians</li>
+                        <li>Broad Client base giving access to a wide variety of contract opportunities</li>
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/contract_v1.png" class="img-responsive">
+                    <img id="contractors-img" src="<?php echo get_template_directory_uri() ?>/images/contractors.png" class="img-responsive">
                 </div>
             </div>
         </div>
