@@ -20,6 +20,17 @@ get_header(); ?>
             </div>
 
             <div class="row">
+
+                <div class="col-md-2"></div>
+
+                <div class="col-md-8">
+                    
+                    <div class="dotted-box">
+                        <div class="dotted-text">Open Channel Of Communication</div>
+
+                    </div>
+
+                </div>
                 
                 <div class="col-md-3">
                     <div class="step-1">
@@ -196,7 +207,7 @@ We also offer payroll, mobilisation and visa solutions. Whether you need a compl
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                Contact us - <a href="#">mail@lighgtsourcepeople.com</a>
+                Contact us - <a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a>
             </div>
         </div>
     </div>

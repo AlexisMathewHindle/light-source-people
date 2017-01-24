@@ -30,7 +30,7 @@ get_header(); ?>
 
     <div class="container-fluid connecting-people">
         <span class="light">Connecting</span> People &AMP; Careers
-        <span><a href="#">See Vancancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
+        <span><a href="<?php echo get_permalink(32) ?>">See Vancancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
     </div>
     <!--/connecting people-->
 
