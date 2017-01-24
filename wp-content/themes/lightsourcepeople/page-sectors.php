@@ -64,45 +64,36 @@ Whether it be wind, solar, hydro, wave, tidal, biomass, onshore, offshore in Cop
             <div class="row">
                 <div class="col-md-6">
                 
-                <div class="content-wrapper">
+                    <div class="content-wrapper">
 
-                        <h1>List your vacancy with LSP</h1>
-<!--                        <div class="summary">
-                            Clients
-                        </div> -->
-                        
-                        <div class="copy">
-Here at Light Source People our consultants have access to all relevant networks, job boards, CV databases and social media relevant to the Energy sector.  However, so does the rest of the recruitment industry.  Where we differ is the level of dedication, determination and tenacity we put in to every search to ensure that no stone is left unturned, nor any potential candidate slips through the net.
-                        </div>  
+                            <h1>List your vacancy with LSP</h1>
+    <!--                        <div class="summary">
+                                Clients
+                            </div> -->
+                            
+                            <div class="copy">
+    Here at Light Source People our consultants have access to all relevant networks, job boards, CV databases and social media relevant to the Energy sector.  However, so does the rest of the recruitment industry.  Where we differ is the level of dedication, determination and tenacity we put in to every search to ensure that no stone is left unturned, nor any potential candidate slips through the net.
+                            </div>  
 
-                        <a href="<?php echo get_permalink(28);?>" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>               
+                            <a href="<?php echo get_permalink(28);?>" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 
-
-                </div>              
-
-
+                    </div>              
 
                 </div>
                 <div class="col-md-6">
                 
-                <div class="content-wrapper-second">
-                    
-                        <h1>Find your next role with us!</h1>
-<!--                        <div class="summary">
-                            Candidates
-                        </div> -->
+                    <div class="content-wrapper-second">
+                        
+                            <h1>Find your next role with us!</h1>
 
-                        <div class="copy">
-Over the past 20 years our staff have successfully placed and mobilised contractors in over 100 countries around the world.  Compliance and service are at the heart of everything we do.  Light Source People takes the risk and hassle away from our clients and contractors, leaving them to focus on delivering world class projects, wherever they may be situated.
-                        </div>
+                            <div class="copy">
+    Our specialist renewable energy consultants want to be your valued partner in identifying your next contract position or career challenge.  Here at Light Source People the emphasis is on listening and understanding the needs of our customers to ensure that we only present you with the most relevant job opportunities to further you career in the renewable energy industry.
+                            </div>
 
-                        <a href="<?php echo get_permalink(55);?>" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            <a style="margin-top: 45px;" href="<?php echo get_permalink(55);?>" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 
 
-                </div>
-
-
-
+                    </div>
 
                 </div>
             </div>

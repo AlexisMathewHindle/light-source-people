@@ -11,7 +11,7 @@
     @include lsp-copy();
     color: #ffffff;
     background: $lsp-blue;
-    padding: 50px 0 50px 0;
+    padding: 40px 0 40px 0;
     text-align: center;
     margin-bottom: 50px;
     .heading {
@@ -21,21 +21,21 @@
       margin-top: 20px;
     }
     .left-quote {
-      margin-top: 40px;
+      margin-top: -40px;
       float: left;
       img {
       	width: 43px;
       }
     }
     .right-quote {
-      margin-top: 40px;
+      // margin-top: 40px;
       float: right;
       img {
       	width: 43px;
       }
     }
     .quote {
-      width: 80%;
+      width: 70%;
       margin: 30px auto 30px auto;
     }
     .timestamp {
@@ -74,4 +74,26 @@
       color: $lsp-blue;
     }
   }
+}
+
+.slick-prev {
+    position: absolute;
+    left: -63px !important;
+    top: 45%;
+    height: 50px !important;
+    width: 40px;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out
+}
+
+.slick-next {
+    position: absolute;
+    right: -63px !important;
+    top: 45%;
+    height: 50px !important;
+    width: 40px;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }

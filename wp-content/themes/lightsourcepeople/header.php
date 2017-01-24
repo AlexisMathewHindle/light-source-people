@@ -18,6 +18,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <link rel='shortcut icon' type='image/x-icon' href='<?php echo get_template_directory_uri() ?>/favicon.ico' />
     <?php wp_head(); ?>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 </head>
 <body>
     <div class="container-fluid visible-sm visible-xs mobile-menu">
@@ -72,9 +73,9 @@
                         <ul>
                             <li><a href="https://www.facebook.com/lightsourcepeople/" title="facebook" alt="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </li>
-                            <li><a href="#" title="twitter" alt="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <li><a href="https://twitter.com/lightsourcepeep" title="twitter" alt="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </li>
-                            <li><a href="#" title="linkedin" alt="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <li><a href="https://www.linkedin.com/company/light-source-people" title="linkedin" alt="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
                             <!-- <li><a href="#" title="instagram" alt="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
                             </li>

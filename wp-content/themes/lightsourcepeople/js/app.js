@@ -240,3 +240,21 @@ $(function() {
   });
 
 });
+
+
+
+$(function(){
+  $('.single-testimonial').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  centerMode: true,
+  fade: true,
+  cssEase: 'linear',
+  focusOnSelect: true,
+  centerPadding: 0,
+  prevArrow: "<img class='a-left control-c prev slick-prev' src='http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/img/back_white.png'>",
+  nextArrow: "<img class='a-right control-c next slick-next' src='http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/img/forward_white.png'>",
+});
+})

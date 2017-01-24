@@ -45,34 +45,105 @@ get_header(); ?>
     <div class="container-fluid testimonial-about">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="title">
-                        TESTIMONIAL
-                    </div>
-                    <div class="heading">
-                        Commercial Director<br>
-                        Renewable Energy Industry
-                    </div>
+                <div class="single-testimonial">
+                    
+                    <div>
+                        <div class="title">
+                            TESTIMONIAL
+                        </div>
+                        <div class="heading">
+                            Commercial Director<br>
+                            Renewable Energy Industry
+                        </div>
 
+                        <div class="quote">
+                            <p>Light Source People are an excellent recruitment partner, with an approach which is not too pushy, but well-researched and thoughtful. They have a very good knowledge of the renewables sector, across a number of different fields and businesses, which means their placements are an excellent fit, both in the skill and culture match required</p>
+                        </div>
 
-                    <div class="left-quote">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/left-quote.png" alt="">
-                    </div>
-
-
-                    <div class="right-quote">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/right-quote.png" alt="">
                     </div>
 
-                    <div class="quote">
-                        <p>Light Source People are an excellent recruitment partner, with an approach which is not too pushy, but well-researched and thoughtful. They have a very good knowledge of the renewables sector, across a number of different fields and businesses, which means their placements are an excellent fit, both in the skill and culture match required – Commercial Director, Renewable Energy Industry</p>
+                    <div>
+
+                        <div class="title">
+                            TESTIMONIAL
+                        </div>
+                        <div class="heading">
+                            Project Director<br>
+                            Renewable Energy Industry
+                        </div>
+
+                        <div class="quote">
+                            <p>Light Source People really took the time to listen to what we needed, this was born out in the quality of candidates presented, all of whom met our brief.</p>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="title">
+                            TESTIMONIAL
+                        </div>
+                        <div class="heading">
+                            Project Development Manager<br>
+                            Renewable Energy Industry
+                        </div>
+  
+                        <div class="quote">
+                            <p>Light Source People took the time to understand exactly where my career was going, what sort of role I was after, and found me exactly that!</p>
+                        </div>
+
+                    </div>
+
+                     <div>
+
+                        <div class="title">
+                            TESTIMONIAL
+                        </div>
+                        <div class="heading">
+                            Project Manager<br>
+                            Renewable Energy Industry
+                        </div>
+
+                        <div class="quote">
+                            <p>Light Source People were a great partner in the search for a new challenge, they have a great network in the European energy sector and found me some really nice opportunities. Thanks!</p>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="title">
+                            TESTIMONIAL
+                        </div>
+                        <div class="heading">
+                            Construction Project Manager<br>
+                            Energy Industry
+                        </div>
+
+                        <div class="quote">
+                            <p>As the project progressed we often needed substantial volumes of contract resource at fairly short notice.  The team at Light Source People always seemed to be able to source what was required.</p>
+                        </div>
+
+                    </div>
+
+                     <div>
+
+                        <div class="title">
+                            TESTIMONIAL
+                        </div>
+                        <div class="heading">
+                            Installation Project Manager<br>
+                            enewable Energy Industry
+                        </div>
+                        <div class="quote">
+                            <p>Light Source People really understand the global energy market place and the level of compliance and support required for placing workers in international locations.  When others couldn’t, they delivered the resources needed to meet our project schedule.</p>
+                        </div>
+
                     </div>
 
 
-                    <div class="timestamp">
-                        11 August 2016
-                    </div>
                 </div>
+               
             </div>
         </div>
     </div>
@@ -99,7 +170,7 @@ get_header(); ?>
                             Ever considered a career in recruitment?
                         </div>
                         <div class="copy">
-                            If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <span>020 3905 6222</span> or email
+                            If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <span>020 3905 6222</span> or email <a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a>
                         </div>
                         <div class="timestamp">
                             <a href="<?php echo get_permalink(50); ?>">Apply Now <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
