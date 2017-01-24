@@ -8159,9 +8159,6 @@ button.close {
   font-family: 'Montserrat Light';
   src: url(fonts/Montserrat-Light.ttf); }
 
-.container {
-  max-width: 1200px; }
-
 body {
   font-family: Montserrat;
   line-height: 1.6; }
@@ -8431,8 +8428,6 @@ h2 {
     width: 100%; }
   .vacancy-search .job-type-select {
     height: 42px; }
-  .vacancy-search select {
-    width: 100%; }
   .vacancy-search input {
     width: 100%;
     padding: 10px;
@@ -8537,7 +8532,7 @@ h2 {
     font-family: Montserrat Light;
     color: #ffffff; }
     .clients .rss-feed .copy span {
-      color: #F6A623; }
+      color: #eb4f1b; }
   .clients .rss-feed .timestamp {
     margin-top: 15px;
     font-size: 12px; }
@@ -8562,8 +8557,7 @@ h2 {
 .key-points {
   margin-top: 50px !important; }
 
-#wpjb-upload-file,
-.wpjb-submit {
+#wpjb-upload-file, .wpjb-submit {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -8579,22 +8573,15 @@ h2 {
   border: none;
   text-decoration: none;
   font-family: Montserrat Light; }
-  #wpjb-upload-file span,
-  .wpjb-submit span {
+  #wpjb-upload-file span, .wpjb-submit span {
     color: #ffffff; }
-  #wpjb-upload-file .fa-chevron-right,
-  .wpjb-submit .fa-chevron-right {
+  #wpjb-upload-file .fa-chevron-right, .wpjb-submit .fa-chevron-right {
     margin-left: 5px;
     font-size: 8px; }
-  #wpjb-upload-file:hover,
-  .wpjb-submit:hover {
+  #wpjb-upload-file:hover, .wpjb-submit:hover {
     opacity: 0.6; }
 
-.wpjb-fieldset-_trashed,
-.wpjb-apply-form {
-  display: none; }
-
-.candidate-menu {
+.wpjb-fieldset-_trashed, .wpjb-apply-form {
   display: none; }
 
 .contact {
@@ -8677,7 +8664,6 @@ h2 {
   height: 7px; }
 
 .home .hero {
-  background-image: url("images/hero_bg.jpg");
   height: 646px;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -8974,7 +8960,7 @@ h2 {
   height: 523px; }
 
 .contact-us .contact-details {
-  background-color: #282E33;
+  background-color: #1E2226;
   width: 100%;
   height: 150px;
   position: relative; }
@@ -8988,9 +8974,7 @@ h2 {
         text-decoration: none;
         color: #fff; }
       .contact-us .contact-details #contact-details span #tel {
-        color: #F6A623; }
-    .contact-us .contact-details #contact-details span.address {
-      color: rgba(255, 255, 255, 0.6); }
+        color: #eb4f1b; }
 
 .contact-us .contact-box {
   font-family: Montserrat Light;
@@ -9115,6 +9099,13 @@ input[type=file] {
   .send-cv:hover {
     background: rgba(255, 255, 255, 0.4); }
 
+.privacy-policy {
+  padding: 100px; }
+  .privacy-policy p, .privacy-policy li {
+    color: #9b9b9b; }
+    .privacy-policy p span, .privacy-policy li span {
+      text-transform: uppercase; }
+
 .successful-candidates .sc-top {
   padding: 50px 0 50px 0; }
 
@@ -9145,7 +9136,7 @@ input[type=file] {
       font-size: 18px; }
   .successful-candidates .reasons .step-1 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #92bcee;
     color: #ffffff; }
@@ -9169,7 +9160,7 @@ input[type=file] {
         margin-left: 5px; }
   .successful-candidates .reasons .step-2 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #6ea6e8;
     color: #ffffff; }
@@ -9193,7 +9184,7 @@ input[type=file] {
         margin-left: 5px; }
   .successful-candidates .reasons .step-3 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #4190e2;
     color: #ffffff; }
@@ -9217,7 +9208,7 @@ input[type=file] {
         margin-left: 5px; }
   .successful-candidates .reasons .step-4 {
     margin-top: 30px;
-    height: 400px;
+    height: auto;
     padding: 30px;
     background: #5487bd;
     color: #ffffff; }
@@ -9262,15 +9253,14 @@ input[type=file] {
   height: 372px !important; }
 
 .ci-wrapper {
-  background: #282E33;
+  background: #4990E2;
   color: #ffffff;
   text-align: center;
   padding: 50px 0 50px 0;
   font-size: 24px;
   font-family: Montserrat Light; }
   .ci-wrapper span {
-    font-weight: 700;
-    color: #F6A623; }
+    font-weight: 700; }
 
 .job-description {
   padding: 50px 0 50px 0; }
@@ -9365,8 +9355,6 @@ input[type=file] {
   .about .introduction {
     padding: 50px 0 50px 0;
     text-align: center; }
-    .about .introduction .contact-number {
-      color: #F6A623; }
     .about .introduction .heading {
       font-size: 30px;
       margin-bottom: 30px; }
@@ -9389,11 +9377,6 @@ input[type=file] {
       color: #4990E2; }
 
 @media (max-width: 1024px) {
-  .sectors .sector-bottom .content-wrapper {
-    border: none; }
-  .sectors .sector-bottom .content-wrapper-second {
-    padding-left: 0;
-    margin-top: 50px; }
   .home .tagline {
     width: auto; }
   .home .signup form input {
@@ -9443,8 +9426,6 @@ input[type=file] {
     padding: 15px; }
   .vacancy-search input,
   .vacancy-search button {
-    margin-bottom: 15px; }
-  .vacancy-search select {
     margin-bottom: 15px; } }
 
 @media (max-width: 480px) {
@@ -9516,8 +9497,6 @@ input[type=file] {
     padding: 0;
     margin: 0; }
     .responsive-menu ul li {
-      font-family: Montserrat Light;
-      color: #ffffff;
       border-bottom: 1px solid #ffffff;
       padding: 15px;
       font-size: 20px; }
