@@ -8159,9 +8159,6 @@ button.close {
   font-family: 'Montserrat Light';
   src: url(fonts/Montserrat-Light.ttf); }
 
-.container {
-  width: 1200px; }
-
 body {
   font-family: Montserrat;
   line-height: 1.6; }
@@ -8194,6 +8191,9 @@ h2 {
 .copy {
   color: #9B9B9B;
   font-family: Montserrat Light; }
+
+.break {
+  height: 15px; }
 
 .dream-role {
   padding: 70px 0 70px 0;
@@ -8333,7 +8333,7 @@ h2 {
     max-width: 70%;
     float: right; }
   .current-vacancies .vacancies-title {
-    max-width: 40%;
+    max-width: 43%;
     padding: 50px 0; }
   .current-vacancies .heading {
     font-size: 34px; }
@@ -8827,6 +8827,10 @@ h2 {
     font-size: 14px;
     line-height: 1.6; }
 
+.rss-feed .title a {
+  color: #fff;
+  text-decoration: none; }
+
 .sectors h1 {
   font-size: 30px;
   margin-top: 0;
@@ -8910,6 +8914,8 @@ h2 {
     width: 300px;
     display: block;
     margin: auto; }
+  .contract .seeking #contractors-img {
+    margin-top: 10%; }
 
 .contract .downloads {
   padding: 50px 0 50px 0;
@@ -8929,7 +8935,7 @@ h2 {
     display: inline-block;
     font-size: 12px;
     background: #ffffff;
-    width: 155px;
+    width: 150px;
     margin: 50px auto auto auto;
     padding: 10px;
     -webkit-border-radius: 4px;
@@ -8941,6 +8947,12 @@ h2 {
     color: #4990E2; }
   .contract .downloads .expenses {
     margin-left: 40px; }
+    @media only screen and (max-width: 1199px) {
+      .contract .downloads .expenses {
+        margin-left: 4px; } }
+
+.permanent-content p {
+  color: #9b9b9b; }
 
 .contact-us #map {
   width: 100%;
@@ -9092,6 +9104,28 @@ input[type=file] {
 .successful-candidates .reasons {
   padding-top: 50px;
   text-align: center; }
+  .successful-candidates .reasons .dotted-box {
+    border: 1px dashed #4990E2;
+    border-bottom: none;
+    width: 100%;
+    height: 50px;
+    position: relative; }
+    @media only screen and (max-width: 992px) {
+      .successful-candidates .reasons .dotted-box {
+        display: none; } }
+    .successful-candidates .reasons .dotted-box .dotted-text {
+      position: absolute;
+      top: -27%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0 auto;
+      height: 50px;
+      width: 100%;
+      max-width: 49%;
+      background: #fff;
+      color: #4990E2;
+      font-size: 18px; }
   .successful-candidates .reasons .step-1 {
     margin-top: 30px;
     height: 400px;

@@ -22,9 +22,9 @@
 			margin: auto;
 		}
 
-		// img {
-		// 	padding: 50px;
-		// }
+		#contractors-img {
+			margin-top: 10%;
+		}
 	}
 	.downloads {
 		padding: 50px 0 50px 0;
@@ -47,7 +47,7 @@
 			display: inline-block;
 			font-size: 12px;
 			background: #ffffff;
-			width: 155px;
+			width: 150px;
 			margin: 50px auto auto auto;
 			padding: 10px;
 			@include border-radius(4px); 
@@ -59,6 +59,16 @@
 		// }
 		.expenses {
 			margin-left: 40px;
+			@media only screen and (max-width: 1199px) {
+				margin-left: 4px;
+			}
 		}
+	}
+}
+
+
+.permanent-content {
+	p {
+		color: #9b9b9b;
 	}
 }

@@ -24,7 +24,7 @@ get_header(); ?>
 
 
 
-            <div class="summary key-points">
+           <!--  <div class="summary key-points">
 
                 <div class="row">
                     <div class="col-md-4">
@@ -67,7 +67,7 @@ get_header(); ?>
             
 
 
-            </div>
+            </div> -->
 
             <div class="copy">
 
@@ -83,7 +83,7 @@ If you want to be a part of our dynamic growing company and add value to its cus
 
         </div>
         <div class="col-md-6">
-            <img src="<?php echo get_template_directory_uri() ?>/images/work_with_us.png" class="img-responsive">
+            <img src="<?php echo get_template_directory_uri() ?>/images/wordcloud.png" class="img-responsive">
         </div>
     </div>
 </div>

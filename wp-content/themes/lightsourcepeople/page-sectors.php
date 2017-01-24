@@ -75,7 +75,7 @@ Whether it be wind, solar, hydro, wave, tidal, biomass, onshore, offshore in Cop
 Here at Light Source People our consultants have access to all relevant networks, job boards, CV databases and social media relevant to the Energy sector.  However, so does the rest of the recruitment industry.  Where we differ is the level of dedication, determination and tenacity we put in to every search to ensure that no stone is left unturned, nor any potential candidate slips through the net.
                         </div>  
 
-                        <a href="#" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>               
+                        <a href="<?php echo get_permalink(28);?>" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>               
 
 
                 </div>              
@@ -96,7 +96,7 @@ Here at Light Source People our consultants have access to all relevant networks
 Over the past 20 years our staff have successfully placed and mobilised contractors in over 100 countries around the world.  Compliance and service are at the heart of everything we do.  Light Source People takes the risk and hassle away from our clients and contractors, leaving them to focus on delivering world class projects, wherever they may be situated.
                         </div>
 
-                        <a href="#" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        <a href="<?php echo get_permalink(55);?>" class="more-btn">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 
 
                 </div>

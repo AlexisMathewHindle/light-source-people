@@ -4,9 +4,9 @@
   src: url(fonts/Montserrat-Light.ttf);
 }
 
-.container {
-  width: 1200px;
-}
+// .container {
+//   width: 1200px;
+// }
 
 body {
   font-family: Montserrat;
@@ -47,6 +47,10 @@ h2 {
 .copy {
   color: $font-color;
   @include lsp-copy();
+}
+
+.break {
+  height: 15px;
 }
 
 .dream-role {
@@ -209,7 +213,7 @@ h2 {
     float: right;
   }
   .vacancies-title {
-    max-width: 40%;
+    max-width: 43%;
     padding: 50px 0;
   }
   .heading {
