@@ -22,11 +22,12 @@
     background: #ffffff;
     padding: 30px 0 30px 0;
     float: left;
-    .sub-menu {
+    .sectors-sub-menu, .sub-menu {
       background: #ffffff;
       border: 1px solid $lsp-blue;
       position: absolute;
       display: none;
+      z-index: 100;
       li {
         display: block;
         padding: 10px;
