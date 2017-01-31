@@ -224,6 +224,20 @@ $(function() {
     initMap();
   }
 
+  $("#sectors").mouseenter(function (e) {
+    e.preventDefault();
+    $('.sectors-sub-menu').fadeIn();
+  });
+
+  $("#sectors").mouseleave(function (e) {
+    e.preventDefault();
+    $('.sectors-sub-menu').hide();
+  });
+
+  $('#sectors-btn').click(function () {
+    $('.sectors-menu').slideToggle();
+  });
+
 
   $("#candidates").mouseenter(function (e) {
     e.preventDefault();

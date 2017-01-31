@@ -8616,12 +8616,13 @@ h2 {
   background: #ffffff;
   padding: 30px 0 30px 0;
   float: left; }
-  .lsp-navbar .navigation .sub-menu {
+  .lsp-navbar .navigation .sectors-sub-menu, .lsp-navbar .navigation .sub-menu {
     background: #ffffff;
     border: 1px solid #4990E2;
     position: absolute;
-    display: none; }
-    .lsp-navbar .navigation .sub-menu li {
+    display: none;
+    z-index: 100; }
+    .lsp-navbar .navigation .sectors-sub-menu li, .lsp-navbar .navigation .sub-menu li {
       display: block;
       padding: 10px; }
   .lsp-navbar .navigation ul {
@@ -8677,7 +8678,6 @@ h2 {
   height: 7px; }
 
 .home .hero {
-  height: 646px;
   background-size: cover;
   background-repeat: no-repeat; }
   .home .hero .down-arrow {
@@ -8914,6 +8914,9 @@ h2 {
       font-size: 8px; }
   .sectors .sector-bottom .clients {
     color: #4990E2; }
+
+.nuclear .copy {
+  padding-bottom: 20px; }
 
 .contract .seeking {
   padding: 100px 0 50px 0; }
