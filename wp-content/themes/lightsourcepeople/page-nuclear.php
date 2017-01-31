@@ -110,7 +110,7 @@ With an emphasis on delivery through listening and truly understanding our custo
                             <h1>Find your next role with us!</h1>
 
                             <div class="copy">
-    Our specialist renewable energy consultants want to be your valued partner in identifying your next contract position or career challenge.  Here at Light Source People the emphasis is on listening and understanding the needs of our customers to ensure that we only present you with the most relevant job opportunities to further you career in the renewable energy industry.
+    Our specialist nuclear consultants want to be your valued partner in identifying your next contract position or career challenge.  Here at Light Source People the emphasis is on listening and understanding the needs of our customers to ensure that we only present you with the most relevant job opportunities to further you career in the nuclear industry.
                             </div>
 
                             <a style="margin-top: 45px; margin-right: 40px;" href="<?php echo get_permalink(55);?>" class="more-btn">Read More - Contract <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
