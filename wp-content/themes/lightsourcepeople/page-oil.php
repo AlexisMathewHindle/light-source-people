@@ -21,11 +21,7 @@ get_header(); ?>
 Light Source People provides talent solutions to the global Upstream and Downstream Oil & Gas sectors.  From FEED, through detailed design, EPC, construction, commissioning, and on to production/operations and maintenance, Light Source People has the knowledge and network to staff your projects wherever they may be situated.  Our staff have supplied both permanent and contract talent solutions to many of the world’s leading Operators, Service and EPC companies, and have built up a great deal of experience along the way.  With a focus on mobilisation and compliance we ensure that our placements are able to concentrate on making a valuable contribution to their employers projects.
                     </div>
 
-                    <div class="copy">
-                        
-With scalable solutions individually tailored to our customer’s needs, Light Source People has the capability and processes in place to deliver best in class talent solutions to the global Oil & Gas sector.
-
-                    </div>
+                   
 
                 </div>
 
@@ -46,6 +42,12 @@ With scalable solutions individually tailored to our customer’s needs, Light S
                     <!-- <div class="summary">
                         Statistics
                     </div> -->
+
+                     <div class="copy">
+                        
+With scalable solutions individually tailored to our customer’s needs, Light Source People has the capability and processes in place to deliver best in class talent solutions to the global Oil & Gas sector.
+
+                    </div>
                     
                    <div class="copy">
                           
