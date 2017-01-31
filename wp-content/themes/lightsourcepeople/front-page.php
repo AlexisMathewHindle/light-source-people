@@ -19,53 +19,22 @@ get_header(); ?>
 
     ?>
 
-    <div class="container-fluid hero" style="background-image:url('<?php echo get_template_directory_uri() .'/images/'. $selectedBg; ?>');">
-        <div class="tagline">
-            Energy Talent Solutions
-        </div>
-        <div class="contact-tel-main">
-            020 3905 6222
-        </div>
-        <div class="info">
-            Call us and speak to our industry employment specialists
-        </div>
-
-        <div class="down-arrow">
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </div>
-
+    <div class="container-fluid hero" style="padding-left: 0px; padding-right: 0px;">
+        <img class="img-responsive" src="<?php echo get_template_directory_uri() ?>/images/homepage.png" alt="">
 
     </div>
     <!--/hero-->
 
     <div class="container-fluid connecting-people">
         <span class="light">Connecting</span> People &AMP; Careers
-        <span><a href="<?php echo get_permalink(32) ?>">See Vancancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
+        <span><a href="<?php echo get_permalink(32) ?>">See Vacancies <i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
     </div>
     <!--/connecting people-->
 
     <div class="container-fluid signup">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-md-12">
-                    <form id="signup-form">
-                        <div class="col-md-3 col-md-offset-1">
-                            <input type="text" name="" autocomplete="off" placeholder="Email Address">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" name="" autocomplete="off" placeholder="Contact Number (Optional)">
-                        </div>
-                        <div class="col-md-2">
-                            <span class="upload-cv"><i class="fa fa-upload" aria-hidden="true"></i> Upload CV</span>
-                        </div>
-                        <div class="col-md-2">
-                            <button class="signup-btn">Sign Up</button>
-                        </div>
-                    </form>
-                    <div class="copy">
-                        *Sign up to our mailing list to get updates and alerts on new vacancies
-                    </div>
-                </div> -->
+
                 <?php echo do_shortcode('[contact-form-7 id="65" title="File Upload - Homepage"]');?>
             </div>
         </div>

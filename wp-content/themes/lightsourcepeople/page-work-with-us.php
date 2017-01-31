@@ -33,7 +33,7 @@ get_header(); ?>
 
         </div>
         <div class="col-md-6">
-            <img src="<?php echo get_template_directory_uri() ?>/images/wordcloud.jpg" class="img-responsive">
+            <img src="<?php echo get_template_directory_uri() ?>/images/wordcloud.png" class="img-responsive">
         </div>
     </div>
 </div>
