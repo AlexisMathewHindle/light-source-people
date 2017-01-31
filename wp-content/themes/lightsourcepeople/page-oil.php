@@ -14,10 +14,8 @@ get_header(); ?>
     <div class="container-fluid sector-top">
         <div class="container lsp-divider">
             <div class="row">
-                <div class="col-md-5">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/sectors.png" class="img-responsive">
-                </div>
-                <div class="col-md-7">
+                
+                <div class="col-md-12">
                     <h1>Oil & Gas</h1>
                     <div class="summary">
 Light Source People provides talent solutions to the global Upstream and Downstream Oil & Gas sectors.  From FEED, through detailed design, EPC, construction, commissioning, and on to production/operations and maintenance, Light Source People has the knowledge and network to staff your projects wherever they may be situated.  Our staff have supplied both permanent and contract talent solutions to many of the world’s leading Operators, Service and EPC companies, and have built up a great deal of experience along the way.  With a focus on mobilisation and compliance we ensure that our placements are able to concentrate on making a valuable contribution to their employers projects.
@@ -30,6 +28,10 @@ With scalable solutions individually tailored to our customer’s needs, Light S
                     </div>
 
                 </div>
+
+                <div class="col-md-12">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/oil-gas.png" class="img-responsive">
+                </div>
             </div>
         </div>
     </div><!--/sector top-->
@@ -39,7 +41,7 @@ With scalable solutions individually tailored to our customer’s needs, Light S
     <div class="container-fluid sector-middle">
         <div class="container lsp-divider">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <!-- <h1>Leading Renewable Recruitment</h1> -->
                     <!-- <div class="summary">
                         Statistics
@@ -53,9 +55,9 @@ With an emphasis on delivery through listening and truly understanding our custo
 
 
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <img src="<?php echo get_template_directory_uri() ?>/images/sectors-1.png" class="img-responsive chart">
-                </div>
+                </div> -->
             </div>
         </div>
     </div><!--/sector middle-->

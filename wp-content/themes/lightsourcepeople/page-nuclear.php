@@ -15,7 +15,7 @@ get_header(); ?>
         <div class="container lsp-divider">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/sectors.png" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/nuclear.png" class="img-responsive">
                 </div>
                 <div class="col-md-7">
                     <h1>Nuclear Power</h1>
