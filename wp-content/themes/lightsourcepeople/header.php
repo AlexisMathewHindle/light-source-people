@@ -38,7 +38,14 @@
         <ul>
             <li><a href="<?php echo get_permalink(38); ?>">About</a></li>
             <li><a href="<?php echo get_permalink(59); ?>">Sectors</a></li>
-            <li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>
+             <li id="sectors-btn"> Sectors <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+             <ul class="sectors-sub-menu">
+                <li><a href="<?php echo get_permalink(59); ?>">Renewable Energy</a></li>
+                    <li><a href="<?php echo get_permalink(75); ?>">Nuclear</a></li>
+                    <li><a href="<?php echo get_permalink(79); ?>">Oil & Gas</a></li>
+                    <li><a href="<?php echo get_permalink(79); ?>">Transmission & Distribution</a></li>
+                </ul>
+<li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>
             <li id="canidate-btn">Candidates <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
             <ul class="candidate-menu">
                 <li><a href="<?php echo get_permalink(55); ?>">Contract</a></li>
@@ -92,6 +99,7 @@
                                 <li><a href="<?php echo get_permalink(59); ?>">Renewable Energy</a></li>
                                     <li><a href="<?php echo get_permalink(75); ?>">Nuclear</a></li>
                                     <li><a href="<?php echo get_permalink(79); ?>">Oil & Gas</a></li>
+                                    <li><a href="<?php echo get_permalink(79); ?>">Transmission & Distribution</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?php echo get_permalink(28); ?>">Clients</a></li>

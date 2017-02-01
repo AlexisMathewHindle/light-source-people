@@ -8597,6 +8597,9 @@ h2 {
 .candidate-menu {
   display: none; }
 
+.sectors-sub-menu {
+  display: none; }
+
 .contact {
   background: #F3F3F3; }
   .contact span {

@@ -249,6 +249,9 @@ $(function() {
     $('.sub-menu').hide();
   });
 
+  $('#sectors-btn').click(function(){
+    $('.sectors-sub-menu').slideToggle();
+  })
   $('#canidate-btn').click(function () {
     $('.candidate-menu').slideToggle();
   });
