@@ -10,30 +10,7 @@
 get_header(); ?>
 <div class="contract">
     <div class="container-fluid seeking">
-        <!-- <div class="container lsp-divider">
-            <div class="row">
-                <div class="col-md-5">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/contract.png" class="contract-img">
-                </div>
-                <div class="col-md-7">
-                    <h1>Seeking a <?php echo the_title() ?> Role</h1>
-                    <div class="summary">
-                        Wind power farms generate between 17 and 39 times as much 
-power as they consume, as compared to 16 times for nuclear 
-plants and 11 times for coal plants, according to a study of 
-Midwestern wind farms by the University of Wisconsin.
-                    </div>
-                    <div class="copy">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-            </div>
-        </div> -->
+
 
         <div class="container lsp-divider">
 
@@ -43,15 +20,7 @@ Midwestern wind farms by the University of Wisconsin.
                 </div>
                 <div class="col-md-6">
                     
-                    <ul>
-                        <li>Weekly / bi weekly / monthly payment options to suit you or your business</li>
-                        <li>Free advice on choosing the right set up for you when setting out in to the world of contracting</a></li>
-                        <li>Complete mobilisation and demobilisation service – Taking the hassle out of getting to your project site.</li>
-                        <li>We only work within the Energy sector, ensuring you have a specialist not generalist Consultant handling your placement and assignment.</li>
-                        <li>Flexible approach, we want to work with you to help and support you in meeting your project deliverables</li>
-                        <li>Discounts arranged with specialist Ltd company Insurance and Accountancy providers</li>
-                        <li>Broad Client base giving access to a wide variety of contract opportunities</li>
-                    </ul>
+                    <?php the_content();?>
                 </div>
                 <div class="col-md-6">
                     <img id="contractors-img" src="<?php echo get_template_directory_uri() ?>/images/contractors.png" class="img-responsive">

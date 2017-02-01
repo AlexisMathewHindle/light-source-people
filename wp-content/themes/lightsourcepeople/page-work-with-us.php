@@ -13,21 +13,7 @@ get_header(); ?>
         <div class="col-md-6">
             <h1>Join the Team at Light Source!</h1>
 
-
-            <div class="copy">
-
-
-<p>It’s easy to be a Recruitment Consultant.  It’s not easy to be a truly great one.  In order to stand out among your peers in the industry you will need a blend of the skills, traits and behaviours in our work cloud.  Here at Light Source People we look to employ people with a passion for delivering a truly market leading service to our customers.  If you feel you have a good blend of these, then we would like to hear from you.  It doesn’t matter if you have 20 years’ experience or you are just starting out in the sector, we will provide you with the environment, tools and training to thrive.</p>
-
-
-            </div>
-
-            <div class="copy">
-
-                <p>If you want to be a part of our dynamic growing company and add value to its customers, we currently have vacancies from Researcher to Associate Director.  Call Adam Grainger on <b>020 3905 6222</b> or email <a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a> with a copy of your CV and a short introduction explaining why you would fit the team.
-                </p>
-
-            </div>
+            <?php the_content();?>
 
             <div class="hr"></div>
 
