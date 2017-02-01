@@ -24,10 +24,10 @@ get_header(); ?>
 	<div class="container-fluid sector-top">
 		<div class="container lsp-divider">
 			<div class="row">
-				<div class="col-md-5">
+				<!-- <div class="col-md-5">
 					<img src="<?php echo get_template_directory_uri() ;?>/images/nuclear.png" alt="" class="img-responsive">
-				</div>
-				<div class="col-md-7">
+				</div> -->
+				<div class="col-md-12">
 					<h1>Tansmission and Distribution</h1>
 					 <div class="summary">
 
