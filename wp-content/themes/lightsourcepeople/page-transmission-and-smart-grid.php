@@ -28,7 +28,11 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri() ;?>/images/nuclear.png" alt="" class="img-responsive">
 				</div> -->
 				<div class="col-md-12">
+<<<<<<< HEAD:wp-content/themes/lightsourcepeople/page-transmission-and-smart-grid.php
 					<h1><?php the_title() ;?></h1>
+=======
+					<h1>Transmission and Distribution</h1>
+>>>>>>> 5175b47a95ddf862f51d0b34b372d600f8c48622:wp-content/themes/lightsourcepeople/page-transmission-and-distribution.php
 					 <div class="summary">
 
 					<?php echo get_post_meta($post->ID, $summary, true);  ;?>
