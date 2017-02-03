@@ -28,7 +28,7 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri() ;?>/images/nuclear.png" alt="" class="img-responsive">
 				</div> -->
 				<div class="col-md-12">
-					<h1>Tansmission and Distribution</h1>
+					<h1><?php the_title() ;?></h1>
 					 <div class="summary">
 
 					<?php echo get_post_meta($post->ID, $summary, true);  ;?>

@@ -28,7 +28,7 @@ get_header(); ?>
                     <img src="<?php echo get_template_directory_uri() ?>/images/nuclear.png" class="img-responsive">
                 </div>
                 <div class="col-md-7">
-                    <h1>Nuclear Power</h1>
+                    <h1><?php the_title();?></h1>
                     <div class="summary">
                         <?php echo get_post_meta($post->ID, $summary, true); ; ?>
                     </div>
