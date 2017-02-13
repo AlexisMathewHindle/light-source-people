@@ -8680,169 +8680,201 @@ h2 {
   background: #4990E2;
   height: 7px; }
 
-.home .hero {
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .home .hero .down-arrow {
-    -vendor-animation-duration: 0.5s;
-    color: #ffffff;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 100px; }
-
-.home .tagline {
-  background: rgba(0, 0, 0, 0.4);
-  font-weight: 400;
-  padding: 10px;
-  max-width: 630px;
-  margin: auto;
-  text-align: center;
-  font-size: 34px;
-  color: #ffffff;
-  margin-bottom: 20px;
-  margin-top: 200px; }
-
-.home .contact-tel-main {
-  width: 500px;
-  margin: auto;
-  text-align: center;
-  font-size: 45px;
-  color: #ffffff;
-  font-weight: 400;
-  margin-bottom: 20px; }
-
-.home .info {
-  text-align: center;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 400; }
-
-.home .scroll-icon {
-  width: 19px;
-  display: block;
-  margin: 50px auto auto auto;
-  cursor: pointer; }
-
-.home .connecting-people {
-  text-align: center;
-  background-image: url(images/connecting-people-bg.png);
-  background-size: 604px auto;
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 70px;
-  font-size: 30px;
-  font-weight: 700; }
-  .home .connecting-people .light {
-    font-family: Montserrat Light;
-    display: inline-block;
-    font-size: 30px; }
-  .home .connecting-people span {
-    display: block;
-    font-size: 14px;
-    margin-top: 10px;
-    font-weight: 400; }
-    .home .connecting-people span a {
-      -webkit-transition: opacity 0.5s ease;
-      -o-transition: opacity 0.5s ease;
-      transition: opacity 0.5s ease;
-      color: #4990E2;
-      text-decoration: none; }
-      .home .connecting-people span a .fa {
-        margin-left: 5px;
-        font-size: 8px; }
-      .home .connecting-people span a:hover {
-        opacity: 0.6; }
-
-.home .signup {
-  background: #4990E2;
-  padding: 30px 0 30px 0; }
-  .home .signup form {
-    font-family: Montserrat Light; }
-    .home .signup form input {
-      width: 100%;
-      padding: 10px;
-      outline: none;
-      border: none;
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px; }
-    .home .signup form .upload-cv {
+.home {
+  position: relative; }
+  .home .tel_container {
+    width: 900px;
+    height: 40px;
+    position: absolute;
+    top: 14vh;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 0;
+    max-width: 37%; }
+    @media only screen and (min-width: 992px) {
+      .home .tel_container {
+        display: none; } }
+    @media only screen and (min-width: 870px) and (max-width: 992px) {
+      .home .tel_container {
+        top: 24vh;
+        height: 140px; } }
+    @media only screen and (min-width: 767px) and (max-width: 870px) {
+      .home .tel_container {
+        top: 22vh;
+        height: 120px; } }
+    @media only screen and (min-width: 650px) and (max-width: 767px) {
+      .home .tel_container {
+        top: 20vh;
+        height: 100px; } }
+    @media only screen and (min-width: 550px) and (max-width: 650px) {
+      .home .tel_container {
+        top: 18vh;
+        height: 80px; } }
+    @media only screen and (min-width: 448px) and (max-width: 550px) {
+      .home .tel_container {
+        top: 16vh;
+        height: 70px; } }
+    @media only screen and (min-width: 300px) and (max-width: 448px) {
+      .home .tel_container {
+        top: 13vh;
+        height: 50px; } }
+  .home .hero {
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .home .hero .down-arrow {
+      -vendor-animation-duration: 0.5s;
+      color: #ffffff;
       text-align: center;
-      -webkit-transition: background 0.5s ease;
-      -o-transition: background 0.5s ease;
-      transition: background 0.5s ease;
-      font-family: Montserrat Light;
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px;
-      border: 1px solid #ffffff;
-      background: none;
-      width: 100%;
-      display: block;
-      height: 100%;
-      padding: 10px;
-      color: #ffffff;
-      cursor: pointer; }
-      .home .signup form .upload-cv .fa {
-        margin-right: 10px; }
-      .home .signup form .upload-cv:hover {
-        background: rgba(255, 255, 255, 0.4); }
-    .home .signup form .signup-btn {
-      -webkit-transition: background 0.5s ease;
-      -o-transition: background 0.5s ease;
-      transition: background 0.5s ease;
-      font-family: Montserrat Light;
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px;
-      border: 1px solid #ffffff;
-      background: none;
-      width: 100%;
-      display: block;
-      height: 100%;
-      padding: 10px;
-      color: #ffffff;
-      cursor: pointer; }
-      .home .signup form .signup-btn:hover {
-        background: rgba(255, 255, 255, 0.4); }
-  .home .signup .copy {
-    font-family: Montserrat Light;
-    width: 500px;
+      font-size: 30px;
+      margin-top: 100px; }
+  .home .tagline {
+    background: rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    padding: 10px;
+    max-width: 630px;
+    margin: auto;
     text-align: center;
-    font-size: 14px;
+    font-size: 34px;
     color: #ffffff;
-    margin: 60px auto auto auto; }
-
-.home .summary {
-  background: #ffffff;
-  padding: 70px 0 70px 0; }
-  .home .summary .heading {
+    margin-bottom: 20px;
+    margin-top: 200px; }
+  .home .contact-tel-main {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 20px; }
+  .home .info {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400; }
+  .home .scroll-icon {
+    width: 19px;
+    display: block;
+    margin: 50px auto auto auto;
+    cursor: pointer; }
+  .home .connecting-people {
+    text-align: center;
+    background-image: url(images/connecting-people-bg.png);
+    background-size: 604px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 70px;
     font-size: 30px;
-    text-align: center;
-    color: #1E2226;
-    margin-bottom: 15px; }
-    .home .summary .heading span {
-      font-family: 'Montserrat' !important;
-      font-weight: 700;
-      color: #1E2226; }
-  .home .summary .subheading {
-    color: #4990E2;
-    text-align: center;
-    font-size: 18px; }
-  .home .summary .content {
-    color: #9B9B9B;
-    padding: 0 150px 0 150px;
-    text-align: center;
-    margin-top: 15px;
-    font-family: Montserrat Light;
-    font-size: 14px;
-    line-height: 1.6; }
+    font-weight: 700; }
+    .home .connecting-people .light {
+      font-family: Montserrat Light;
+      display: inline-block;
+      font-size: 30px; }
+    .home .connecting-people span {
+      display: block;
+      font-size: 14px;
+      margin-top: 10px;
+      font-weight: 400; }
+      .home .connecting-people span a {
+        -webkit-transition: opacity 0.5s ease;
+        -o-transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease;
+        color: #4990E2;
+        text-decoration: none; }
+        .home .connecting-people span a .fa {
+          margin-left: 5px;
+          font-size: 8px; }
+        .home .connecting-people span a:hover {
+          opacity: 0.6; }
+  .home .signup {
+    background: #4990E2;
+    padding: 30px 0 30px 0; }
+    .home .signup form {
+      font-family: Montserrat Light; }
+      .home .signup form input {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px; }
+      .home .signup form .upload-cv {
+        text-align: center;
+        -webkit-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+        font-family: Montserrat Light;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        background: none;
+        width: 100%;
+        display: block;
+        height: 100%;
+        padding: 10px;
+        color: #ffffff;
+        cursor: pointer; }
+        .home .signup form .upload-cv .fa {
+          margin-right: 10px; }
+        .home .signup form .upload-cv:hover {
+          background: rgba(255, 255, 255, 0.4); }
+      .home .signup form .signup-btn {
+        -webkit-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+        font-family: Montserrat Light;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        background: none;
+        width: 100%;
+        display: block;
+        height: 100%;
+        padding: 10px;
+        color: #ffffff;
+        cursor: pointer; }
+        .home .signup form .signup-btn:hover {
+          background: rgba(255, 255, 255, 0.4); }
+    .home .signup .copy {
+      font-family: Montserrat Light;
+      width: 500px;
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff;
+      margin: 60px auto auto auto; }
+  .home .summary {
+    background: #ffffff;
+    padding: 70px 0 70px 0; }
+    .home .summary .heading {
+      font-size: 30px;
+      text-align: center;
+      color: #1E2226;
+      margin-bottom: 15px; }
+      .home .summary .heading span {
+        font-family: 'Montserrat' !important;
+        font-weight: 700;
+        color: #1E2226; }
+    .home .summary .subheading {
+      color: #4990E2;
+      text-align: center;
+      font-size: 18px; }
+    .home .summary .content {
+      color: #9B9B9B;
+      padding: 0 150px 0 150px;
+      text-align: center;
+      margin-top: 15px;
+      font-family: Montserrat Light;
+      font-size: 14px;
+      line-height: 1.6; }
 
 .rss-feed .title a {
   color: #fff;

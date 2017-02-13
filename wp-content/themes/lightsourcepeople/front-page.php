@@ -21,7 +21,7 @@ get_header(); ?>
 
     <div class="container-fluid hero" style="padding-left: 0px; padding-right: 0px;">
         <img class="img-responsive" src="<?php echo get_template_directory_uri() ?>/images/homepage.png" alt="">
-
+        <a href="tel:00442039056222" class="tel_container"></a>
     </div>
     <!--/hero-->
 

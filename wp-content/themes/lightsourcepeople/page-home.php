@@ -8,6 +8,7 @@
  */
 get_header(); ?>
 <div class="home">
+    <a href="#" class="click_number">Hello</a>
 
     <?php 
     // SCRIPT TO GENERATE RANDOM IMAGES  //
@@ -21,7 +22,7 @@ get_header(); ?>
 
     <div class="container-fluid hero" style="padding-left: 0px; padding-right: 0px;">
         <img class="img-responsive" src="<?php echo get_template_directory_uri() ?>/images/homepage.png" alt="">
-
+        
     </div>
     <!--/hero-->
 

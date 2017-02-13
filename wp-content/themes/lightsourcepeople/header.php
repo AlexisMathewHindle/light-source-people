@@ -37,7 +37,7 @@
     <div class="container-fluid responsive-menu">
         <ul>
             <li><a href="<?php echo get_permalink(38); ?>">About</a></li>
-            <li><a href="<?php echo get_permalink(59); ?>">Sectors</a></li>
+            <!-- <li><a href="<?php echo get_permalink(59); ?>">Sectors</a></li> -->
              <li id="sectors-btn"> Sectors <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
              <ul class="sectors-sub-menu">
                 <li><a href="<?php echo get_permalink(59); ?>">Renewable Energy</a></li>
