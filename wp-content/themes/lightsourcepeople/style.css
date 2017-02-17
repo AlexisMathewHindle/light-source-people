@@ -9272,7 +9272,7 @@ input[type=file] {
   .successful-candidates .reasons .step-4 {
     margin-top: 30px;
     height: auto;
-    padding: 30px;
+    padding: 30px 30px 48px;
     background: #5487bd;
     color: #ffffff; }
     .successful-candidates .reasons .step-4 .heading {
