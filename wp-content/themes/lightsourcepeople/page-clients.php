@@ -26,7 +26,7 @@ get_header(); ?>
     <div class="container reasons">
         <div class="row">
             <div class="col-md-12">
-                <h1>How we engage with our Customers</h1>
+                <h1>How we engage with our Clients</h1>
             </div>
         </div>
 

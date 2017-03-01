@@ -23,14 +23,13 @@
                 <ul>
                     <li class="heading">Vacancies</li>
                     <li><a href="<?php echo bloginfo('url') ?>/vacancies">See all Vacancies</a></li>
-                    <li><a href="<?php echo bloginfo('url') ?>/clients">List your Vacancy</a></li>
+                    <li><a href="<?php echo bloginfo('url') ?>/contact">List your Vacancy</a></li>
                     <li><a href="<?php echo bloginfo('url') ?>/contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="col-md-2">
                 <ul>
                     <li class="heading">Contact</a></li>
-                    <li><a href="#">Adam Grainger</a></li>
                     <li><a href="#">020 3905 6222</a></li>
                     <li><a href="mailto:hello@lightsourcepeople.com">hello@lightsourcepeople.com</a></li>
                 </ul>
